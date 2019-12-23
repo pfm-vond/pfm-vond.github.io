@@ -1,0 +1,33 @@
+<html lang="fr-FR">
+    <head>
+        <script src="library/jquery/jquery.min.js"></script>
+        <script src="library/popperjs/popper.min.js"></script>
+
+        <!-- VueJs -->
+            <!-- development version, includes helpful console warnings -->
+            <script src="library/vuejs/vue.js"></script>
+            <!-- production version, optimized for size and speed 
+                not that it matter for something as simple as a resume -->
+            <!--<script src="vuejs/vue.min.js"></script>-->
+                        
+            <script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
+
+        <!-- Bootstrap -->
+            <link rel="stylesheet" href="library/bootstrap/css/bootstrap.min.css">
+            <link rel="stylesheet" href="library/bootstrap/css/bootstrap-grid.min.css">
+            
+            <script src="library/bootstrap/js/bootstrap.min.js"></script>
+        
+        <script src="library/vuejs/http-vue-loader/http-vue-loader.js"></script>
+        <script type="module" src="main.js"></script>
+    </head>
+
+    <body>
+        <div id="lodging">
+            <header>
+                <header-vue/>
+            </header>
+            <body-vue/>
+        </div>
+    </body>
+</html>

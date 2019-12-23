@@ -1,0 +1,15 @@
+{
+    "en": {
+      "menu":{
+        "homepage": "Welcome",
+        "introduction": "presentation",
+        "map": "loding's plan",
+        "access": "Access",
+        "prices": "tariff",
+        "reservation": "Booking",
+        "links": "links",
+        "contact": "contact us",
+        "legal": "legal notice"
+      }
+    }
+  }

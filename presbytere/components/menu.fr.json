@@ -1,0 +1,17 @@
+{
+    "fr": 
+    {
+        "menu":
+        {
+            "homepage": "Accueil",
+            "introduction": "Présentation",
+            "map": "Plan du gîte",
+            "access": "Accés",
+            "prices": "Tarifs",
+            "reservation": "Réservation",
+            "links": "Liens",
+            "contact": "Contactez nous",
+            "legal": "Mentions Légales"
+        }
+    }
+}
