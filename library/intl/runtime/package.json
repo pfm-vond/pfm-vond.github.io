@@ -1,0 +1,46 @@
+{
+  "name": "messageformat-runtime",
+  "version": "3.0.0-beta.0",
+  "description": "Runtime components of messageformat",
+  "keywords": [
+    "i18n",
+    "icu",
+    "messageformat",
+    "internationalization"
+  ],
+  "author": "Eemeli Aro <eemeli@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://messageformat.github.io/",
+  "repository": "messageformat/messageformat",
+  "main": "lib/runtime",
+  "sideEffects": false,
+  "files": [
+    "lib/",
+    "messages.*"
+  ],
+  "scripts": {
+    "build:cjs": "MODULE_TYPE=cjs babel src -d lib",
+    "build:mjs": "MODULE_TYPE=mjs babel src -d lib --keep-file-extension",
+    "build": "npm run build:cjs && npm run build:mjs",
+    "docs": "jsdoc2md -c jsdoc.config.json -f src/messages.mjs > README.md",
+    "prepublishOnly": "npm run build && npm run docs"
+  },
+  "dependencies": {
+    "make-plural": "^6.0.1"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "parserOptions": {
+      "sourceType": "module"
+    }
+  }
+}
