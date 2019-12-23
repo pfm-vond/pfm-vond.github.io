@@ -1,0 +1,39 @@
+{
+  "name": "messageformat-loader-example",
+  "private": true,
+  "version": "0.4.0-beta.1",
+  "description": "Small example for messageformat-loader",
+  "author": "Eemeli Aro <eemeli@gmail.com>",
+  "license": "MIT",
+  "repository": "messageformat/messageformat",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --mode=none"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "no-console": 0
+    },
+    "overrides": [
+      {
+        "files": [
+          "webpack.config.js"
+        ],
+        "env": {
+          "node": true
+        }
+      }
+    ]
+  },
+  "dependencies": {
+    "messageformat": "file:../messageformat",
+    "messageformat-loader": "file:../loader"
+  }
+}
