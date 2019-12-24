@@ -16,14 +16,25 @@ Intl.UserLanguage = function(languages, availables){
     return language;
 }
 
-Intl.BuildResources = function(pages, languages){
+Intl.BuildResources = function(rootfolder, resourceFiles, languages){
     var resources = {};
 
-    pages.forEach(page => {
+    resourceFiles.forEach(resource => {
         languages.forEach(language => {
-        $.ajax("components/" + page + "." + language + ".json").done(function(currentPageResource) {
+            $.ajax(
+            {
+                url: rootfolder + resource + "." + language + ".json",
+                async: false
+            }).done(function(currentPageResource) {
+                var r = $.extend(true, resources, currentPageResource);
+            })
+        });
+        $.ajax(
+            {
+                url: rootfolder + resource + ".json",
+                async: false
+            }).done(function(currentPageResource) {
             var r = $.extend(true, resources, currentPageResource);
-        })
         })
     });
 
