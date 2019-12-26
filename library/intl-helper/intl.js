@@ -16,27 +16,51 @@ Intl.UserLanguage = function(languages, availables){
     return language;
 }
 
-Intl.BuildResources = function(rootfolder, resourceFiles, languages){
-    var resources = {};
+if(window.Json === undefined)
+{
+    window.Json = {};
+}
 
-    resourceFiles.forEach(resource => {
-        languages.forEach(language => {
-            $.ajax(
-            {
-                url: rootfolder + resource + "." + language + ".json",
-                async: false
-            }).done(function(currentPageResource) {
-                var r = $.extend(true, resources, currentPageResource);
-            })
-        });
-        $.ajax(
-            {
-                url: rootfolder + resource + ".json",
-                async: false
-            }).done(function(currentPageResource) {
-            var r = $.extend(true, resources, currentPageResource);
+Json.Fusion = function(rootfolder, fileNames){
+    var fusionedContent = {};
+
+    fileNames.forEach(file => {        
+        $.ajax({
+            url: rootfolder + file + ".json",
+            async: false,
+        })
+        .done(function(content) {
+            var r = $.extend(true, fusionedContent, content);
         })
     });
 
+    return fusionedContent;
+}
+
+Intl.BuildResources = function(rootfolder, resourceFiles, languages){
+    var resources = {};
+
+    languages.forEach(language => {
+        var files = resourceFiles.map(x => x + "." + language)
+        var currentPageResource = Json.Fusion(rootfolder, files);
+        $.extend(true, resources, currentPageResource);
+    });
+
+    var defaultPageResource = Json.Fusion(rootfolder, resourceFiles);
+    $.extend(true, resources, defaultPageResource);
+
     return resources;
+}
+
+Intl.Vue = function(resourceFiles, availableLanguages)
+{
+    Vue.use(httpVueLoader);
+    
+    return i18n = new VueI18n({
+        locale: Intl.UserLanguage(window.navigator.languages, availableLanguages),
+        fallbackLocale: availableLanguages[0],
+        messages: Intl.BuildResources("content/resources/", resourceFiles, availableLanguages),
+        dateTimeFormats: Json.Fusion("i18n/", [ "date" ])
+    });
+     
 }
