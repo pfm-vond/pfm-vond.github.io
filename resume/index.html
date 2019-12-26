@@ -27,7 +27,11 @@
  
     <body>
         <div id="resume">
-            <div id="langChoice" style="position:absolute; right:0px; z-index: 10000;"><button v-on:click="$i18n.locale = 'en'">en</button><button v-on:click="$i18n.locale = 'fr'">fr</buttonv-on:click="count++"></div>
+            <div id="langChoice" class="row" style="position:absolute; right:0px; z-index: 10000;">
+                <select v-model="$i18n.locale">
+                    <option v-for="(lang, i) in option.availableLang" :key="`Lang${i}`" :value="lang">{{ lang }}</option>
+                </select>
+            </div>
             <resume v-bind:option="option" v-bind:resume="resume"></resume>
         </div>
     </body>
