@@ -3,8 +3,7 @@
     <div v-bind:key="email" v-for="email in value.emails">
         <mailto v-bind:email="email"  v-bind:option="option"></mailto>
     </div>
-    <postal 
-      displayName="false" 
+    <postal
       v-bind:value="value.address"
       v-bind:option="option">
     </postal>
@@ -13,11 +12,7 @@
 
 <script>
     module.exports = {
-      props: ['value', 'option'],  
-      data: function () { 
-        return {
-        } 
-      },
+      props: ['value', 'option'],
       components: {
         'mailto': 'url:./mailto.vue',
         'postal': 'url:./postalAddress.vue',

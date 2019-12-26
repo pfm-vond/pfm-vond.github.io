@@ -21,10 +21,13 @@
         <script src="../library/vuejs/http-vue-loader/http-vue-loader.js"></script>
         <script src="../library/intl-helper/intl.js"></script>
         <script type="module" src="main.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="hidelanguagechoice.css" media="print">
     </head>
  
     <body>
         <div id="resume">
+            <div id="langChoice" style="position:absolute; right:0px; z-index: 10000;"><button v-on:click="$i18n.locale = 'en'">en</button><button v-on:click="$i18n.locale = 'fr'">fr</buttonv-on:click="count++"></div>
             <resume v-bind:option="option" v-bind:resume="resume"></resume>
         </div>
     </body>

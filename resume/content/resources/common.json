@@ -32,10 +32,10 @@
           "{street}",
           "{postalCode} {city} {cityarea}",
           "{county}",
-          "{country}",
           "",
           "",
-          "{honorific}"
+          "",
+          ""
         ]
       }
     } 

@@ -14,7 +14,7 @@
 
 <script>
     module.exports = {
-      props: ['value', 'option', 'displayName'],
+      props: ['value', 'option'],
       methods: {
           addressData(honorific)
           {
