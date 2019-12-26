@@ -1,0 +1,42 @@
+{
+    "en": {
+      "common": {
+        "period": "{from} - {to}",
+        "since": "since {date}",
+        "orgaloc": "{organisation} ({location})",
+        "licence": {
+          "owned": "Driver licence",
+          "missing": ""
+        },
+        "mister": "Mr.",
+        "address": [
+          "{street}",
+          "{cityarea} {city}",
+          "{county}",
+          "{postalCode}",
+          "{country}",
+          "",
+          ""
+        ]
+      }
+    },
+    "fr": {
+      "common": {
+        "since": "depuis {date}",
+        "licence": {
+          "owned":"Permis de conduire",
+          "missing": ""
+        },
+        "mister": "M.",
+        "address": [
+          "{street}",
+          "{postalCode} {city} {cityarea}",
+          "{county}",
+          "{country}",
+          "",
+          "",
+          "{honorific}"
+        ]
+      }
+    } 
+  }

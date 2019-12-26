@@ -1,0 +1,37 @@
+{
+    "various": [
+      {
+        "key": "people",
+        "values": [
+            {
+                "key": "mgerard"
+            },
+            {
+                "key": "agazuit"
+            },
+            {
+                "key": "lpussacq"
+            },
+            {
+                "key": "ldumas"
+            },
+            {
+                "key": "ccheminaud"
+            }
+        ]
+      },
+      {
+        "key": "other",
+        "values": [
+            {
+                "key": "danse",
+                "gradeOutofFive": 4
+            },
+            {
+                "key": "videogames",
+                "gradeOutofFive": 5
+            }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,39 @@
+{
+    "identity":{
+        "name": "VONDERSCHER",
+        "surname": "Pierre",
+        "title": "identity.title",
+        "birthdate": "1986-02-01",
+        "IsLicenceOwned": true,
+        "contact":{
+            "emails": [
+                "pierre.vonderscher@gmail.com"
+            ],
+            "address": {
+                "honorific": "common.mister",
+                "name": [ "Pierre", "VONDERSCHER" ],
+                "company-name": [],
+                "street": [ "95", "boulevard", "romain rolland"],
+                "cityarea": [],
+                "city": [ "montrouge" ],
+                "county": [],
+                "postalCode": [ "92120" ],
+                "country": [ "France" ]
+            }
+        },
+        "links": [
+            {
+                "libelle": "identity.links.main",
+                "value": "http://vond.fr/"
+            },
+            {
+                "libelle": "identity.links.linkedin",
+                "value": "https://fr.linkedin.com/in/pierrevonderscher"
+            },
+            {
+                "libelle": "identity.links.github",
+                "value": "https://github.com/pfm-vond"
+            }
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "skills": [
+      {
+        "key": "software",
+        "values": [
+            {
+                "key": "csharp",
+                "gradeOutofFive": 4.5
+            },
+            {
+                "key": "vuejs",
+                "gradeOutofFive": 2
+            },
+            {
+                "key": "html",
+                "gradeOutofFive": 3
+            },
+            {
+                "key": "sql",
+                "gradeOutofFive": 3.5
+            },
+            {
+                "key": "other"
+            }
+        ]
+      },
+      {
+        "key": "methodology",
+        "values": [
+            {
+                "key": "agile",
+                "gradeOutofFive": 4
+            },
+            {
+                "key": "kanban",
+                "gradeOutofFive": 3
+            }
+        ]
+      },
+      {
+        "key": "language",
+        "values": [
+            {
+                "key": "english",
+                "gradeOutofFive": 4
+            },
+            {
+                "key": "french",
+                "gradeOutofFive": 5
+            }
+        ]
+      }
+    ]
+  }

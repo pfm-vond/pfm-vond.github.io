@@ -1,0 +1,59 @@
+{
+    "studies": [
+      {
+        "key": "gsa",
+        "organisation": {
+          "name": "organisation.google",
+          "location": "location.london"
+        },
+        "period": {
+          "from": "2012-06-01",
+          "to": "2012-06-01"
+        }
+      },
+      {
+        "key": "uqac",
+        "organisation": {
+          "name": "organisation.uqac",
+          "location": "location.quebec"
+        },
+        "period": {
+          "from": "2010-09-01",
+          "to": "2011-12-31"
+        }
+      },
+      {
+        "key": "esial",
+        "organisation": {
+          "name": "organisation.esial",
+          "location": "location.nancy"
+        },
+        "period": {
+          "from": "2008-09-01",
+          "to": "2011-11-31"
+        }
+      },
+      {
+        "key": "uhp",
+        "organisation": {
+          "name": "organisation.uhp",
+          "location": "location.nancy"
+        },
+        "period": {
+          "from": "2006-09-01",
+          "to": "2008-06-31"
+        }
+      },
+      {
+        "key": "highschool",
+        "organisation": {
+          "name": "organisation.georgesbaumont",
+          "location": "location.stdie"
+        },
+        "period": {
+          "from": "2005-06-01",
+          "to": "2005-06-01"
+        }
+      }
+    ]
+  }

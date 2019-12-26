@@ -25,16 +25,7 @@
  
     <body>
         <div id="resume">
-            <top-personal-information v-if="option.abstract === 'top'">
-                <personal-information></personal-information>
-            </top-personal-information>
-            <left-personal-information v-if="option.abstract === 'left'">
-                <personal-information></personal-information>
-            </left-personal-information>
             <resume v-bind:option="option" v-bind:resume="resume"></resume>
-            <right-personal-information v-if="option.abstract === 'right'">
-                <personal-information></personal-information>
-            </right-personal-information>
         </div>
     </body>
 </html>

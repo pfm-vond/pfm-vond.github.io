@@ -1,0 +1,146 @@
+{
+    "experiences": [
+      {
+        "key": "csn",
+        "organisation": {
+          "name": "organisation.csn",
+          "location": "location.paris"
+        },
+        "period": {
+            "from": "2017-05-01"
+        }
+      },
+      {
+        "key": "talentsoft",
+        "organisation": {
+          "name": "organisation.talentsoft",
+          "location": "location.paris"
+        },
+        "period": {
+            "from": "2016-03-01",
+            "to": "2017-04-31"
+        }
+      },
+      {
+        "key": "gepetoPm",
+        "organisation": {
+          "name": "organisation.viveris",
+          "location": "location.paris"
+        },
+        "period": {
+            "from": "2015-01-01",
+            "to": "2016-03-31"
+        }
+      },
+      {
+        "key": "kappa",
+        "organisation": {
+          "name": "organisation.viveris",
+          "location": "location.paris"
+        },
+        "period": {
+            "from": "2014-10-01",
+            "to": "2016-03-31"
+        }
+      },
+      {
+        "key": "gepetoDev",
+        "organisation": {
+          "name": "organisation.viveris",
+          "location": "location.paris"
+        },
+        "period": {
+            "from": "2014-04-01",
+            "to": "2014-12-31"
+        }
+      },
+      {
+        "key": "sword",
+        "organisation": {
+          "name": "organisation.sword",
+          "location": "location.paris"
+        },
+        "period": {
+            "from": "2012-01-01",
+            "to": "2014-03-31"
+        }
+      },
+      {
+        "key": "uqac",
+        "organisation": {
+          "name": "organisation.uqac",
+          "location": "location.quebec"
+        },
+        "period": {
+            "from": "2011-06-01",
+            "to": "2011-12-31"
+        }
+      },
+      {
+        "key": "cran",
+        "organisation": {
+          "name": "organisation.cran",
+          "location": "location.nancy"
+        },
+        "period": {
+            "from": "2010-06-01",
+            "to": "2010-08-31"
+        }
+      },
+      {
+        "key": "numalliance",
+        "organisation": {
+          "name": "organisation.numalliance",
+          "location": "location.stMichel"
+        },
+        "period": {
+            "from": "2009-07-01",
+            "to": "2009-08-31"
+        }
+      },
+      {
+        "key": "ocaml",
+        "organisation": {
+          "name": "organisation.uhp",
+          "location": "location.nancy"
+        },
+        "period": {
+            "from": "2008-08-01",
+            "to": "2009-01-31"
+        }
+      },
+      {
+        "key": "vega",
+        "organisation": {
+          "name": "organisation.vega",
+          "location": "location.stdie"
+        },
+        "period": {
+            "from": "2008-08-01",
+            "to": "2008-09-31"
+        }
+      },
+      {
+        "key": "army",
+        "organisation": {
+          "name": "organisation.groundarmy",
+          "location": "location.bitche"
+        },
+        "period": {
+            "from": "2007-07-01",
+            "to": "2007-07-31"
+        }
+      },
+      {
+        "key": "unisem",
+        "organisation": {
+          "name": "organisation.unisem",
+          "location": "location.wales"
+        },
+        "period": {
+          "from": "2005-07-01",
+          "to": "2005-07-31"
+        }
+      }
+    ]
+}

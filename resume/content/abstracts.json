@@ -1,0 +1,16 @@
+{
+    "abstracts": [
+        {
+            "key": "introduction"
+        },
+        {
+            "key": "warning"
+        },
+        {
+            "key": "aboutme"
+        },
+        {
+            "key": "jobtitle"
+        }
+    ]
+}
