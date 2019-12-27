@@ -1,5 +1,7 @@
 {
-    "studies": [
+  "studies": {
+    "title": "experiences.title", 
+    "values":[
       {
         "key": "gsa",
         "organisation": {
@@ -57,3 +59,4 @@
       }
     ]
   }
+}

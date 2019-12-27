@@ -3,7 +3,7 @@
     v-if="evaluations != undefined
     && evaluations.values != undefined
     && evaluations.values.length > 0">
-
+    
     <h2><smartext :option="option" :value="evaluations.title"></smartext></h2>
     <ul>
       <li :key="evaluation.key" v-for="evaluation in evaluations.values">

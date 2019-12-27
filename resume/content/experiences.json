@@ -1,5 +1,7 @@
 {
-    "experiences": [
+  "experiences": {
+    "title": "experiences.title", 
+    "values":[
       {
         "key": "csn",
         "organisation": {
@@ -143,4 +145,5 @@
         }
       }
     ]
+  }
 }

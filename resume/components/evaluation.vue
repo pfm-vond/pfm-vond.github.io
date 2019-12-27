@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h3 v-if="evaluation.values != undefined && evaluation.values.length > 0">
+  <div v-if="evaluation.values != undefined && evaluation.values.length > 0">
+    <h3>
       <smartext :option="option" :value="evaluation.title" ></smartext>
     </h3>
     <simplelist 
