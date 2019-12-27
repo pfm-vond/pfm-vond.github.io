@@ -2,10 +2,10 @@
   <div>
     <div v-if="isMultiline">
       <p class="line" v-for="(line, index) in paragraph" :key="index">
-        {{ $t(line) }}
+        <smartline :option="option" :value="line">
       </p>
     </div>
-    <span v-else>{{ $t(text) }}</span>
+    <smartline v-else :option="option" :value="text"></smartline>
   </div>
 </template>
 
@@ -18,6 +18,9 @@
           text: this.value,
           paragraph: this.value
         }
+      },
+      components: {
+        'smartline': 'url:./smart-line.vue',
       }
     }
 </script>

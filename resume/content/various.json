@@ -8,7 +8,10 @@
         "values": [
             {
                 "key": "mgerard",
-                "title": "various.people.mgerard"
+                "title": {
+                    "href":"https://www.linkedin.com/in/mathieu-g%C3%A9rard-440332a9/",
+                    "text":"various.people.mgerard"
+                }
             },
             {
                 "key": "agazuit",
