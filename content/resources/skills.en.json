@@ -2,6 +2,7 @@
   "skills": {
     "title": "Skills",
     "software": {
+      "title": "Software",
       "craftmandship": "CraftmanShip / Clean Code - huge fan of uncle bob (did I already say that mmh well).",
       "csharp": "C# / .Net MVC",
       "html": "HTML / CSS / VueJS / ...",
@@ -9,10 +10,12 @@
       "other": "Honestly plenty and I think we don't really care about it. if you do just 6th principle?"
     },
     "methodology":{
+      "title": "Methodology",
       "agile": "Agile / Scrum",
       "kanban": "Kanban"
     },
     "language":{
+      "title": "Language",
       "english": [ 
         "English :",
          "Work in english on a daily basis with developer in bulgaria",
