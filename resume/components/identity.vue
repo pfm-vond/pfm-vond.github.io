@@ -7,7 +7,7 @@
     <div >{{ $t("identity.age", { age: age}) }}, {{ $t(licence) }}</div>
     <contact v-bind:value="value.contact"  v-bind:option="option"></contact>
     <div v-bind:key="link.value" v-for="link in value.links">
-        <a :href="link.value">{{ $t(link.libelle) }}</a>
+        <smartext :option="option" :value="link"></smartext>
     </div>
   </div>
 </template>
@@ -27,6 +27,7 @@
         } 
       },
       components: {
+        'smartext': 'url:./smart-paragraph.vue',
         'contact': 'url:./contact.vue'
       }
     }

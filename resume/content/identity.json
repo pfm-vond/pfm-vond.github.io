@@ -23,16 +23,16 @@
         },
         "links": [
             {
-                "libelle": "identity.links.main",
-                "value": "http://vond.fr/"
+                "text": "identity.links.main",
+                "href": "http://vond.fr/"
             },
             {
-                "libelle": "identity.links.linkedin",
-                "value": "https://fr.linkedin.com/in/pierrevonderscher"
+                "text": "identity.links.linkedin",
+                "href": "https://fr.linkedin.com/in/pierrevonderscher"
             },
             {
-                "libelle": "identity.links.github",
-                "value": "https://github.com/pfm-vond"
+                "text": "identity.links.github",
+                "href": "https://github.com/pfm-vond"
             }
         ]
     }

@@ -1,5 +1,5 @@
 <template>
-  <a :href="mailto">{{email}}</a>
+  <smartext :value="value" :option="option"></smartext>
 </template>
 
 <script>
@@ -7,8 +7,14 @@
       props: ['email', 'option'],  
       data: function () { 
         return {
-          mailto: "mailto:" + this.email
+          value: {
+            href: "mailto:" + this.email,
+            text: this.email
+          } 
         } 
+      },
+      components: {
+        'smartext': 'url:./smart-paragraph.vue',
       }
     }
 </script>
