@@ -17,7 +17,7 @@
       props: ['type', 'option', 'evaluations'],      
       data: function(){
         return {
-          cssclass: this.type + " evaluationslist"
+          cssclass: this.type + " evaluationlist"
         }
       },
       components: {
