@@ -1,0 +1,11 @@
+{
+  "identity":{
+    "age": "{age} ans",
+    "title": "Conscient que la lumière est très lente :)",
+    "links":{
+      "main": "mon cv: pierre.vond.fr",
+      "linkedin": "Linkedin",
+      "github": "Github"
+    }
+  }
+}

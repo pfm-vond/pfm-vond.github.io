@@ -1,0 +1,17 @@
+{
+  "various":{
+    "people":{
+      "title": "People I work with",
+      "mgerard": "a dev of another team",
+      "agazuit": "my CTO",
+      "lpussacq": "an amazing dev in my team",
+      "ldumas": "another amazing dev in my team",
+      "ccheminaud": "somebody I managed on GEPETO"
+    },
+    "other": {
+      "title": "Other",
+      "danse": "Tango / Rock / lindy-hop",
+      "videogames": "Video games"
+    }
+  }
+}

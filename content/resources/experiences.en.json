@@ -1,0 +1,64 @@
+{
+  "experiences":{
+    "title": "Experiences",
+    "csn": {
+      "title":"Solution Architect Saas",
+      "description": [ "Handle C# development, clean coding topics, and good practices in software engineering related topics at CSN Energy.",
+      "Work with CTOs on industrialisation of process.",
+      "Set up a new modular architecture, Microservices ready.",
+      "Set up an API, user journey oriented with odata add on, to rationnalize and enhance customer experience",
+      "Create and manage CI/CD processes on Azure for a time, now done by a devops.",
+      "CSN Energy is the MVNE (Mobile Virtual Network Enabler) of the energy sector.",
+      "We provide a digital energy management platform and related services that enable energy suppliers to fully outsource their IT activity and none energy professionals to become VES (Virtual Energy Supplier) like MVNOs (Mobile Virtual Network Operators) in the telecommunications industry.",
+      "website: www.csnenergy.com" ]
+    },
+    "talentsoft": {
+      "title":"",
+      "description":""
+    },
+    "gepetoPm": {
+      "title":"",
+      "description":""
+    },
+    "kappa": {
+      "title":"",
+      "description":""
+    },
+    "gepetoDev": {
+      "title":"",
+      "description":""
+    },
+    "sword": {
+      "title":"",
+      "description":""
+    },
+    "uqac": {
+      "title":"",
+      "description":""
+    },
+    "cran": {
+      "title":"",
+      "description":""
+    },
+    "numalliance": {
+      "title":"",
+      "description":""
+    },
+    "ocaml": {
+      "title":"",
+      "description":""
+    },
+    "vega": {
+      "title":"",
+      "description":""
+    },
+    "army": {
+      "title":"",
+      "description":""
+    },
+    "unisem": {
+      "title":"",
+      "description":""
+    }
+  }
+}

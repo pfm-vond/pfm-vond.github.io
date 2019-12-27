@@ -1,0 +1,11 @@
+{
+  "identity":{
+    "age": "{age} years",
+    "title": "Aware of light speed limitation and its impact :)",
+    "links":{
+      "main": "my resume: pierre.vond.fr",
+      "linkedin": "Linkedin",
+      "github": "Github"
+    }
+  }
+}

@@ -15,19 +15,31 @@
             },
             {
                 "key": "agazuit",
-                "title": "various.people.agazuit"
+                "title":  {
+                  "href":"https://www.linkedin.com/in/gazuit/",
+                  "text":"various.people.agazuit"
+                }
             },
             {
                 "key": "lpussacq",
-                "title": "various.people.lpussacq"
+                "title": {
+                  "href":"https://www.linkedin.com/in/lpussacq/",
+                  "text": "various.people.lpussacq"
+                }
             },
             {
                 "key": "ldumas",
-                "title": "various.people.ldumas"
+                "title":  {
+                  "href":"https://www.linkedin.com/in/lo%C3%AFc-dumas-12b74a198/",
+                  "text":"various.people.ldumas"
+                }
             },
             {
                 "key": "ccheminaud",
-                "title": "various.people.ccheminaud"
+                "title":  {
+                  "href":"https://www.linkedin.com/in/ccheminaud/",
+                  "text":"various.people.ccheminaud"
+                }
             }
         ]
       },
@@ -37,12 +49,12 @@
         "values": [
             {
                 "key": "danse",
-                "title": "various.danse.title",
+                "title": "various.other.danse",
                 "gradeOutofFive": 3
             },
             {
                 "key": "videogames",
-                "title": "various.videogames.title",
+                "title": "various.other.videogames",
                 "gradeOutofFive": 4
             }
         ]

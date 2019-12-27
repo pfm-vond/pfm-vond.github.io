@@ -1,9 +1,11 @@
 {
   "studies": {
-    "title": "experiences.title", 
+    "title": "studies.title", 
     "values":[
       {
         "key": "gsa",
+        "title": "studies.gsa.title", 
+        "description": "studies.gsa.description", 
         "organisation": {
           "name": "organisation.google",
           "location": "location.london"
@@ -15,6 +17,8 @@
       },
       {
         "key": "uqac",
+        "title": "studies.uqac.title", 
+        "description": "studies.uqac.description", 
         "organisation": {
           "name": "organisation.uqac",
           "location": "location.quebec"
@@ -26,6 +30,8 @@
       },
       {
         "key": "esial",
+        "title": "studies.esial.title", 
+        "description": "studies.esial.description", 
         "organisation": {
           "name": "organisation.esial",
           "location": "location.nancy"
@@ -37,6 +43,8 @@
       },
       {
         "key": "uhp",
+        "title": "studies.uhp.title", 
+        "description": [ "studies.uhp.grade", "studies.uhp.description" ], 
         "organisation": {
           "name": "organisation.uhp",
           "location": "location.nancy"
@@ -48,6 +56,8 @@
       },
       {
         "key": "highschool",
+        "title": "studies.baumont.title", 
+        "description": "studies.baumont.description", 
         "organisation": {
           "name": "organisation.georgesbaumont",
           "location": "location.stdie"

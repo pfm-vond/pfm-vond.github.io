@@ -1,0 +1,18 @@
+{
+  "organisation":{
+    "google": "Google",
+    "uqac": "Université du Quebec A Chicoutimi",
+    "esial":"Telecom Nancy",
+    "uhp":"Université Henry Poincaré",
+    "georgesbaumont":"Lycée Georges Baumont",
+    "csn": "CSN Energy",
+    "talentsoft": "Talentsoft",
+    "viveris": "Viveris",
+    "sword": "Groupe Sword",
+    "cran": "Centre de Recherche en Automatique de Nancy",
+    "numalliance": "Numalliance",
+    "vega": "Vega Consultant",
+    "groundarmy": "Armée de terre Française",
+    "unisem": "Groupe Unisem"
+  }
+}

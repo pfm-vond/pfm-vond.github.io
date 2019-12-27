@@ -4,6 +4,16 @@
     "values":[
       {
         "key": "csn",
+        "title": "experiences.csn.title",
+        "description": [
+          "experiences.csn.description[0]",
+          "experiences.csn.description[1]",
+          "experiences.csn.description[2]",
+          "experiences.csn.description[3]",
+          "experiences.csn.description[4]",
+          "experiences.csn.description[5]",
+          "experiences.csn.description[6]"
+        ],
         "organisation": {
           "name": "organisation.csn",
           "location": "location.paris"
@@ -14,6 +24,8 @@
       },
       {
         "key": "talentsoft",
+        "title": "experiences.talentsoft.title",
+        "description": "experiences.talentsoft.description",
         "organisation": {
           "name": "organisation.talentsoft",
           "location": "location.paris"
@@ -25,6 +37,8 @@
       },
       {
         "key": "gepetoPm",
+        "title": "experiences.gepetoPm.title",
+        "description": "experiences.gepetoPm.description",
         "organisation": {
           "name": "organisation.viveris",
           "location": "location.paris"
@@ -36,6 +50,8 @@
       },
       {
         "key": "kappa",
+        "title": "experiences.kappa.title",
+        "description": "experiences.kappa.description",
         "organisation": {
           "name": "organisation.viveris",
           "location": "location.paris"
@@ -47,6 +63,8 @@
       },
       {
         "key": "gepetoDev",
+        "title": "experiences.gepetoDev.title",
+        "description": "experiences.gepetoDev.description",
         "organisation": {
           "name": "organisation.viveris",
           "location": "location.paris"
@@ -58,6 +76,8 @@
       },
       {
         "key": "sword",
+        "title": "experiences.sword.title",
+        "description": "experiences.sword.description",
         "organisation": {
           "name": "organisation.sword",
           "location": "location.paris"
@@ -69,6 +89,8 @@
       },
       {
         "key": "uqac",
+        "title": "experiences.uqac.title",
+        "description": "experiences.uqac.description",
         "organisation": {
           "name": "organisation.uqac",
           "location": "location.quebec"
@@ -80,6 +102,8 @@
       },
       {
         "key": "cran",
+        "title": "experiences.cran.title",
+        "description": "experiences.cran.description",
         "organisation": {
           "name": "organisation.cran",
           "location": "location.nancy"
@@ -91,6 +115,8 @@
       },
       {
         "key": "numalliance",
+        "title": "experiences.numalliance.title",
+        "description": "experiences.numalliance.description",
         "organisation": {
           "name": "organisation.numalliance",
           "location": "location.stMichel"
@@ -102,6 +128,8 @@
       },
       {
         "key": "ocaml",
+        "title": "experiences.ocaml.title",
+        "description": "experiences.ocaml.description",
         "organisation": {
           "name": "organisation.uhp",
           "location": "location.nancy"
@@ -113,6 +141,8 @@
       },
       {
         "key": "vega",
+        "title": "experiences.vega.title",
+        "description": "experiences.vega.description",
         "organisation": {
           "name": "organisation.vega",
           "location": "location.stdie"
@@ -124,6 +154,8 @@
       },
       {
         "key": "army",
+        "title": "experiences.army.title",
+        "description": "experiences.army.description",
         "organisation": {
           "name": "organisation.groundarmy",
           "location": "location.bitche"
@@ -135,9 +167,11 @@
       },
       {
         "key": "unisem",
+        "title": "experiences.unisem.title",
+        "description": "experiences.unisem.description",
         "organisation": {
           "name": "organisation.unisem",
-          "location": "location.wales"
+          "location": "location.croespenmaen"
         },
         "period": {
           "from": "2005-07-01",

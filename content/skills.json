@@ -7,14 +7,14 @@
             "title": "skills.software.title",
             "values": [
                 {
+                    "key": "craftmandship",
+                    "title": "skills.software.craftmandship",
+                    "gradeOutofFive": 2
+                },
+                {
                     "key": "csharp",
                     "title": "skills.software.csharp",
                     "gradeOutofFive": 4.5
-                },
-                {
-                    "key": "vuejs",
-                    "title": "skills.software.vuejs",
-                    "gradeOutofFive": 2
                 },
                 {
                     "key": "html",
@@ -54,7 +54,11 @@
             "values": [
                 {
                     "key": "english",
-                    "title": "skills.language.english",
+                    "title": [ 
+                        "skills.language.english[0]",
+                        "skills.language.english[1]",
+                        "skills.language.english[2]"
+                    ],
                     "gradeOutofFive": 4
                 },
                 {

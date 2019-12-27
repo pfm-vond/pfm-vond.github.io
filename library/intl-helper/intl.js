@@ -43,11 +43,10 @@ Intl.BuildResources = function(rootfolder, resourceFiles, languages){
     languages.forEach(language => {
         var files = resourceFiles.map(x => x + "." + language)
         var currentPageResource = Json.Fusion(rootfolder, files);
-        $.extend(true, resources, currentPageResource);
+        var current = {};
+        current[language] = currentPageResource;
+        $.extend(true, resources, current);
     });
-
-    var defaultPageResource = Json.Fusion(rootfolder, resourceFiles);
-    $.extend(true, resources, defaultPageResource);
 
     return resources;
 }

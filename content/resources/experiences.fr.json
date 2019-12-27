@@ -1,0 +1,57 @@
+{
+  "experiences":{
+    "title": "Experiences",
+    "csn": {
+      "title": "Architecte Solution Saas",
+      "description": []
+    },
+    "talentsoft": {
+      "title":"Ingénieur de développement R&D",
+      "description":""
+    },
+    "gepetoPm": {
+      "title":"Application GEPETO : Gestion de configuration en phase d’IVVQ - Chef de Projet / Lead developpeur.",
+      "description":""
+    },
+    "kappa": {
+      "title":"Application KAPPA : Gestion de publications et de dissémination. - Ingénieur d'études",
+      "description":""
+    },
+    "gepetoDev": {
+      "title":"Application GEPETO : Gestion de configuration en phase d’IVVQ - Ingénieur d'études",
+      "description":""
+    },
+    "sword": {
+      "title":"Enterprise Search Consultant",
+      "description":""
+    },
+    "uqac": {
+      "title":"Chercheur en meta-heuristique",
+      "description":""
+    },
+    "cran": {
+      "title":"Développeur java et java-web.",
+      "description":""
+    },
+    "numalliance": {
+      "title":"Stage Ouvrier",
+      "description":""
+    },
+    "ocaml": {
+      "title":"Tuteur Ocaml",
+      "description":""
+    },
+    "vega": {
+      "title":"Création de site web",
+      "description":""
+    },
+    "army": {
+      "title":"Préparation militaire cadre",
+      "description":""
+    },
+    "unisem": {
+      "title":"Operateur sur chaîne",
+      "description":""
+    }
+  }
+}

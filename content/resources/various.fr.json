@@ -1,0 +1,17 @@
+{
+  "various":{
+    "people":{
+      "title": "Personnes avec qui j'ai travaillé",
+      "mgerard": "un developper d'une autre equipe",
+      "agazuit": "mon CTO",
+      "lpussacq": "Un dévelopeur de mon equipe",
+      "ldumas": "Un autre dévelopeur de mon equipe",
+      "ccheminaud": "Un dévelopeur que je managais sur GEPETO"
+    },
+    "other": {
+      "title": "Loisir",
+      "danse": "Tango / Rock / lindy-hop",
+      "videogames": "Jeux-vidéo"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "skills": {
+    "title": "Skills",
+    "software": {
+      "craftmandship": "CraftmanShip / Clean Code - Gros fan d'uncle bob (l'aurais-je déjà dis mmh...).",
+      "csharp": "C# / .Net MVC",
+      "html": "HTML / CSS / VueJS / ...",
+      "sql": "PL/SQL, T-SQL, SQL.",
+      "other": "Y'en a d'autres, si ca vous intéresse : 6ème principe ?"
+    },
+    "methodology":{
+      "agile": "Agile / Scrum",
+      "kanban": "Kanban"
+    },
+    "language":{
+      "english": [ 
+        "English :",
+         "Work in english on a daily basis with developer in bulgaria",
+         "Work experience in wales, India ... (TOIEC 845)" 
+        ],
+      "french": "Francais : maternelle"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "common": {
+    "period": "{from} - {to}",
+    "since": "depuis {date}",
+    "orgaloc": "{organisation} ({location})",
+    "licence": {
+      "owned":"Permis de conduire",
+      "missing": ""
+    },
+    "mister": "M.",
+    "address": [
+      "{street}",
+      "{postalCode} {city} {cityarea}",
+      "{county}",
+      "",
+      "",
+      "",
+      ""
+    ]
+  }
+}

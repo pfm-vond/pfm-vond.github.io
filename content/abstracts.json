@@ -5,16 +5,16 @@
             "value": "abstract.introduction"
         },
         {
-            "key": "warning",
-            "value": "abstract.warning"
-        },
-        {
             "key": "aboutme",
             "value": "abstract.aboutme"
         },
         {
             "key": "jobtitle",
             "value": "abstract.jobtitle"
+        },
+        {
+            "key": "contactme",
+            "value": "abstract.contactme"
         }
     ]
 }
