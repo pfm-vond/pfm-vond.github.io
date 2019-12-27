@@ -1,6 +1,6 @@
 <template>
   <div :class="cssclass">
-    <h2 v-if="evaluations != undefined && evaluations.length > 0">{{ $t(type + ".title") }}</h2>
+    <h2 v-if="evaluations != undefined && evaluations.length > 0"><smartext :option="option" :value="evaluations.title"></smartext></h2>
     <ul>
       <li v-bind:key="evaluation.key" v-for="evaluation in evaluations">
         <evaluation 
@@ -22,6 +22,7 @@
       },
       components: {
         'evaluation': 'url:./evaluation.vue',
+        'smartext': 'url:./smart-paragraph.vue'
       }
     }
 </script>
