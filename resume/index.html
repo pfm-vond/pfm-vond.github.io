@@ -27,7 +27,7 @@
  
     <body>
         <div id="resume">
-            <div id="langChoice" class="row" style="position:absolute; right:0px; z-index: 10000;">
+            <div id="langChoice" class="row" style="position:absolute; right:5%; z-index: 10000;">
                 <select v-model="$i18n.locale">
                     <option v-for="(lang, i) in option.availableLang" :key="`Lang${i}`" :value="lang">{{ lang }}</option>
                 </select>
