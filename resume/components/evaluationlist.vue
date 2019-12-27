@@ -1,12 +1,16 @@
 <template>
-  <div :class="cssclass">
-    <h2 v-if="evaluations != undefined && evaluations.length > 0"><smartext :option="option" :value="evaluations.title"></smartext></h2>
+  <div :class="cssclass"
+    v-if="evaluations != undefined
+    && evaluations.values != undefined
+    && evaluations.values.length > 0">
+
+    <h2><smartext :option="option" :value="evaluations.title"></smartext></h2>
     <ul>
-      <li v-bind:key="evaluation.key" v-for="evaluation in evaluations">
+      <li :key="evaluation.key" v-for="evaluation in evaluations.values">
         <evaluation 
-          v-bind:type="type" 
-          v-bind:option="option" 
-          v-bind:evaluation="evaluation"></evaluation>
+          :type="type" 
+          :option="option" 
+          :evaluation="evaluation"></evaluation>
       </li>
     </ul>
   </div>

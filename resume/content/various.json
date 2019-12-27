@@ -1,5 +1,7 @@
 {
-    "various": [
+  "various": {
+    "title": "various.title",
+    "values": [
       {
         "key": "people",
         "values": [
@@ -35,3 +37,4 @@
       }
     ]
   }
+}

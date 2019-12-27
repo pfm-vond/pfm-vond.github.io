@@ -3,7 +3,7 @@
     <span v-if="isMultiline">
       <p class="line" v-for="(line, index) in paragraph" :key="index">{{ $t(line) }}</p>
     </span>
-    <p v-else>{{ $t(text) }}</p>
+    <span v-else>{{ $t(text) }}</span>
   </div>
 </template>
 
