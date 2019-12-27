@@ -4,50 +4,62 @@
       "values": [
         {
             "key": "software",
+            "title": "skills.software.title",
             "values": [
                 {
                     "key": "csharp",
+                    "title": "skills.software.csharp",
                     "gradeOutofFive": 4.5
                 },
                 {
                     "key": "vuejs",
+                    "title": "skills.software.vuejs",
                     "gradeOutofFive": 2
                 },
                 {
                     "key": "html",
+                    "title": "skills.software.html",
                     "gradeOutofFive": 3
                 },
                 {
                     "key": "sql",
+                    "title": "skills.software.sql",
                     "gradeOutofFive": 3.5
                 },
                 {
-                    "key": "other"
+                    "key": "other",
+                    "title": "skills.software.other"
                 }
             ]
         },
         {
             "key": "methodology",
+            "title": "skills.methodology.title",
             "values": [
                 {
                     "key": "agile",
+                    "title": "skills.methodology.agile",
                     "gradeOutofFive": 4
                 },
                 {
                     "key": "kanban",
+                    "title": "skills.methodology.kanban",
                     "gradeOutofFive": 3
                 }
             ]
         },
         {
             "key": "language",
+            "title": "skills.language.title",
             "values": [
                 {
                     "key": "english",
+                    "title": "skills.language.english",
                     "gradeOutofFive": 4
                 },
                 {
                     "key": "french",
+                    "title": "skills.language.french",
                     "gradeOutofFive": 5
                 }
             ]

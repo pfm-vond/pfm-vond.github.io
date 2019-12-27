@@ -4,34 +4,43 @@
     "values": [
       {
         "key": "people",
+        "title": "various.people.title",
         "values": [
             {
-                "key": "mgerard"
+                "key": "mgerard",
+                "title": "various.people.mgerard"
             },
             {
-                "key": "agazuit"
+                "key": "agazuit",
+                "title": "various.people.agazuit"
             },
             {
-                "key": "lpussacq"
+                "key": "lpussacq",
+                "title": "various.people.lpussacq"
             },
             {
-                "key": "ldumas"
+                "key": "ldumas",
+                "title": "various.people.ldumas"
             },
             {
-                "key": "ccheminaud"
+                "key": "ccheminaud",
+                "title": "various.people.ccheminaud"
             }
         ]
       },
       {
         "key": "other",
+        "title": "various.other.title",
         "values": [
             {
                 "key": "danse",
-                "gradeOutofFive": 4
+                "title": "various.danse.title",
+                "gradeOutofFive": 3
             },
             {
                 "key": "videogames",
-                "gradeOutofFive": 5
+                "title": "various.videogames.title",
+                "gradeOutofFive": 4
             }
         ]
       }

@@ -1,25 +1,26 @@
 <template>
   <div>
     <h3 v-if="evaluation.values != undefined && evaluation.values.length > 0">
-      {{ $t(type + "." + evaluation.key) }}
+      <smartext :option="option" :value="evaluation.title" ></smartext>
     </h3>
-    <div class="row">
-      <div class="col-12" v-bind:key="value.key"  v-for="value in evaluation.values">
-        <span>{{ $t(type + "." +value.key) }}</span>
-        <span v-if="!(value.gradeOutofFive) 
-          || option.grade === 'hidden'"></span>
-        <span v-else-if="option.grade" :class="gradeclass" >
-          {{ $n(value.gradeOutofFive) }}
-        </span>
-        <span v-else>{{ $n(value.gradeOutofFive) }}</span>
-      </div>
-    </div>
+    <simplelist 
+      :option="option" 
+      :items="evaluation.values"
+      type="type"
+      #default="{ item: value }">
+      <smartext :class="value.key" :option="option" :value="value.title"></smartext>
+      <grade :option="option" :value="value.gradeOutofFive"></grade>
+    </simplelist>
   </div>
 </template>
 
 <script>
     module.exports = {
       props: ['type', 'option', 'evaluation'],
-      data: function () { return { gradeclass: "grade" + this.option.grade } }
+      components: {
+        'simplelist': 'url:./simplelist.vue',
+        'smartext': 'url:./smart-paragraph.vue',
+        'grade': 'url:./grade-out-of-five.vue'
+      }
     }
 </script>

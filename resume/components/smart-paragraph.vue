@@ -1,8 +1,10 @@
 <template>
   <div>
-    <span v-if="isMultiline">
-      <p class="line" v-for="(line, index) in paragraph" :key="index">{{ $t(line) }}</p>
-    </span>
+    <div v-if="isMultiline">
+      <p class="line" v-for="(line, index) in paragraph" :key="index">
+        {{ $t(line) }}
+      </p>
+    </div>
     <span v-else>{{ $t(text) }}</span>
   </div>
 </template>

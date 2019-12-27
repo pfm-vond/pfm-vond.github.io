@@ -1,8 +1,15 @@
 <template>
-  <div :class="cssclass">
+  <div :class="cssclass"
+    v-if="items != undefined 
+    && items.length > 0">
     <ul>
       <li :key="item.key"  v-for="item in items">
-        <smartext :class="item.key" :option="option" :value="item.value"></smartext>
+        <slot v-bind:item="item">
+          <smartext 
+            :class="item.key" 
+            :option="option"
+            :value="item.value"></smartext>
+        </slot>
       </li>
     </ul>
   </div>
