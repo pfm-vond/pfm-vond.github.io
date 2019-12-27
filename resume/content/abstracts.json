@@ -1,16 +1,20 @@
 {
     "abstracts": [
         {
-            "key": "introduction"
+            "key": "introduction",
+            "value": "abstract.introduction"
         },
         {
-            "key": "warning"
+            "key": "warning",
+            "value": "abstract.warning"
         },
         {
-            "key": "aboutme"
+            "key": "aboutme",
+            "value": "abstract.aboutme"
         },
         {
-            "key": "jobtitle"
+            "key": "jobtitle",
+            "value": "abstract.jobtitle"
         }
     ]
 }

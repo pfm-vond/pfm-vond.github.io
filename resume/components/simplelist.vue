@@ -1,8 +1,8 @@
 <template>
   <div :class="cssclass">
     <ul>
-      <li v-bind:key="item.key"  v-for="item in items">
-        {{ $t(type + "." + item.key) }}
+      <li :key="item.key"  v-for="item in items">
+        <smartext :class="item.key" :option="option" :value="item.value"></smartext>
       </li>
     </ul>
   </div>
@@ -15,6 +15,9 @@
         return {
           cssclass: this.type + " simplelist"
         }
+      },
+      components: {
+        'smartext': 'url:./smart-paragraph.vue',
       }
     }
 </script>
