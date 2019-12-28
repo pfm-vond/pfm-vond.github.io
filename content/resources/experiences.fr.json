@@ -3,7 +3,8 @@
     "title": "Expériences",
     "csn": {
       "title": "Architecte Solution Saas",
-      "description": [ "Gere les sujets de développement C#, de clean coding, et les bonnes pratiques liée à l'ingénierie logiciel chez CSN Energy.",
+      "description": [
+        "Gere les sujets de développement C#, de clean coding, et les bonnes pratiques liée à l'ingénierie logiciel chez CSN Energy.",
         "Travaille en relation avec les CTO sur le process industrialisation.",
         "Mise en place d'une architecture modulaire, Déployable en Microservices.",
         "Mise en place d'une architecture parcours utilisateur et Odata pour les API, afin de rationnaliser et d'améliorer l'expérience utilisateur.",
@@ -15,7 +16,8 @@
     },
     "talentsoft": {
       "title":"Ingénieur de développement R&D",
-      "description": [ "Développeur C#",
+      "description": [
+        "Développeur C#",
         "Au sein du département R&D et rattaché à un leader technique, l’ingénieur développement R&D est à l’origine de la conception et du développement des logiciels. il s'assure de la maintenabilité et de la lisibilité du code sur le long terme.",
         "Responsable KU QA",
         "La Knowledge Unit QA (KU-QA) a pour rôle d'analyser les processus qualités de Talentsoft afin de réduire ou d'automatiser les étapes douloureuses pour les développeurs.",
