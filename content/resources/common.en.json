@@ -7,6 +7,15 @@
       "owned": "Driver licence",
       "missing": ""
     },
+    "language":{
+      "spoken": " | |spoken languages :",
+      "fr": "French",
+      "en": "English"
+    },
+    "version": {
+      "full": "Full Version",
+      "short": "Short Version"
+    },
     "mister": "Mr.",
     "address": [
       "{street}",

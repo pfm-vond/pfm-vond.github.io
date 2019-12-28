@@ -31,7 +31,12 @@
                 <select v-model="$i18n.locale">
                     <option v-for="(lang, i) in option.availableLang" :key="`Lang${i}`" :value="lang">{{ lang }}</option>
                 </select>
-            </div>
+            </div><!--
+            <div id="versionChoice" class="row" style="position:absolute; top:0px; right:6%; z-index: 10000;">
+                <select v-model="option.version.value">
+                    <option v-for="version in option.version.config" :key="version.key" :value="version.key">{{ $t(version.key) }}</option>
+                </select>
+            </div>-->
             <resume v-bind:option="option" v-bind:resume="resume"></resume>
         </div>
     </body>

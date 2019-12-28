@@ -19,6 +19,23 @@ var app = new Vue({
       availableLang,
       abstract: 'left',  
       grade: 'hidden',
+      version: {
+        value: 'common.version.full',
+        config: [
+          {
+            key: 'common.version.full',
+            abstract: true
+          },
+          {
+            key: 'common.version.short',
+            abstract: false,
+            skills: 'short',
+            experiences: 'short',
+            various: false,
+            studies: false
+          }
+        ]
+      }
     },
     resume: Json.Fusion("content/", [
       "studies",

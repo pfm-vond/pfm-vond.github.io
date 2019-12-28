@@ -5,6 +5,7 @@
         "title": "identity.title",
         "birthdate": "1986-02-01",
         "IsLicenceOwned": true,
+        "languages": [ "common.language.fr", "common.language.en" ],
         "contact":{
             "emails": [
                 "pierre.vonderscher@gmail.com"

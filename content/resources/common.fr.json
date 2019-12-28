@@ -7,6 +7,15 @@
       "owned":"Permis de conduire",
       "missing": ""
     },
+    "version": {
+      "full": "Version complète",
+      "short": "Version abrégé"
+    },
+    "language":{
+      "spoken": " | |Langues parlés :",
+      "fr": "Français",
+      "en": "Anglais"
+    },
     "mister": "M.",
     "address": [
       "{street}",

@@ -5,6 +5,7 @@
     </div>    
     <div >{{ $t(value.title) }}</div>
     <div >{{ $t("identity.age", { age: age}) }}, {{ $t(licence) }}</div>
+    <div><span>{{ $tc('common.language.spoken', value.languages.length ) }}</span><smartext v-bind:key="lang.value" v-for="lang in value.languages" :option="option" :value="lang"></smartext></div> 
     <contact v-bind:value="value.contact"  v-bind:option="option"></contact>
     <div v-bind:key="link.value" v-for="link in value.links">
         <smartext :option="option" :value="link"></smartext>
