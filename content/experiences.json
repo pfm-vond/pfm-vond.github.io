@@ -5,15 +5,7 @@
       {
         "key": "csn",
         "title": "experiences.csn.title",
-        "description": [
-          "experiences.csn.description[0]",
-          "experiences.csn.description[1]",
-          "experiences.csn.description[2]",
-          "experiences.csn.description[3]",
-          "experiences.csn.description[4]",
-          "experiences.csn.description[5]",
-          "experiences.csn.description[6]"
-        ],
+        "description": "experiences.csn.description",
         "organisation": {
           "name": "organisation.csn",
           "location": "location.paris"
