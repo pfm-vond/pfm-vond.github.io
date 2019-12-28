@@ -4,6 +4,25 @@
     "gsa": {
       "title": "GSA 100 ; 200 and 300 Training",
       "description": "This class is designed to introduce to core functionality and capabilities of the Google search appliance. This formation provide the knowledge and skills to deploy fundamental features and basics features, especially around security and integrating more content sources."
+    },
+    "uqac":{
+      "title": "Maître ès Science M.Sc. Computer Master Degree",
+      "description": "B+ 3.59/4.3"
+
+    },
+    "esial": {
+      "title": "Master Degree. Computer engineering - Software engineering major.",
+      "description": "TELECOM Nancy is the graduate school of Computer Science of the Lorraine INP Collegium of Engineering at the University of Lorraine. Member of the MinesTélécom Institute association, TELECOM Nancy is a public engineering school accredited by the CTI independent French body for evaluating and accrediting engineering curricula) and EUR-ACE. Its goal is to train 'digital engineers' and scientists: women and men involved in the uture, developing both profession-specific expertise directed towards progress and opportunities, as well as an awareness to and knowledge of the business world."
+    },
+    "uhp": {
+      "title": "Bachelor of Mathematics and computer science.",
+      "grade": "with honours.",
+      "description": ""
+
+    },
+    "baumont": {
+      "title": "high school diploma Science and engineering major.",
+      "description": "with honours."
     }
   }
 }
