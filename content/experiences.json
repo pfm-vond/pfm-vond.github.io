@@ -5,7 +5,15 @@
       {
         "key": "csn",
         "title": "experiences.csn.title",
-        "description": "experiences.csn.description",
+        "description": [
+          "experiences.csn.description[0]",
+          "experiences.csn.description[1]",
+          "experiences.csn.description[2]",
+          "experiences.csn.description[3]",
+          "experiences.csn.description[4]",
+          "experiences.csn.description[5]",
+          "experiences.csn.description[6]"
+        ],
         "organisation": {
           "name": "organisation.csn",
           "location": "location.paris"
@@ -17,7 +25,17 @@
       {
         "key": "talentsoft",
         "title": "experiences.talentsoft.title",
-        "description": "experiences.talentsoft.description",
+        "description": [
+          "experiences.talentsoft.description[0]",
+          "experiences.talentsoft.description[1]",
+          "experiences.talentsoft.description[2]",
+          "experiences.talentsoft.description[3]",
+          "experiences.talentsoft.description[4]",
+          "experiences.talentsoft.description[5]",
+          "experiences.talentsoft.description[6]",
+          "experiences.talentsoft.description[7]",
+          "experiences.talentsoft.description[8]"
+        ],
         "organisation": {
           "name": "organisation.talentsoft",
           "location": "location.paris"
@@ -30,7 +48,22 @@
       {
         "key": "gepetoPm",
         "title": "experiences.gepetoPm.title",
-        "description": "experiences.gepetoPm.description",
+        "description": [
+          "experiences.gepetoPm.description[0]",
+          "experiences.gepetoPm.description[1]",
+          "experiences.gepetoPm.description[2]",
+          "experiences.gepetoPm.description[3]",
+          "experiences.gepetoPm.description[4]",
+          "experiences.gepetoPm.description[5]",
+          "experiences.gepetoPm.description[6]",
+          "experiences.gepetoPm.description[7]",
+          "experiences.gepetoPm.description[8]",
+          "experiences.gepetoPm.description[9]",
+          "experiences.gepetoPm.description[10]",
+          "experiences.gepetoPm.description[11]",
+          "experiences.gepetoPm.description[12]",
+          "experiences.gepetoPm.description[13]"
+        ],
         "organisation": {
           "name": "organisation.viveris",
           "location": "location.paris"
@@ -43,7 +76,19 @@
       {
         "key": "kappa",
         "title": "experiences.kappa.title",
-        "description": "experiences.kappa.description",
+        "description": [
+          "experiences.kappa.description[0]",
+          "experiences.kappa.description[1]",
+          "experiences.kappa.description[2]",
+          "experiences.kappa.description[3]",
+          "experiences.kappa.description[4]",
+          "experiences.kappa.description[5]",
+          "experiences.kappa.description[6]",
+          "experiences.kappa.description[7]",
+          "experiences.kappa.description[8]",
+          "experiences.kappa.description[9]",
+          "experiences.kappa.description[10]"
+        ],
         "organisation": {
           "name": "organisation.viveris",
           "location": "location.paris"
@@ -56,7 +101,15 @@
       {
         "key": "gepetoDev",
         "title": "experiences.gepetoDev.title",
-        "description": "experiences.gepetoDev.description",
+        "description": [
+          "experiences.gepetoDev.description[0]",
+          "experiences.gepetoDev.description[1]",
+          "experiences.gepetoDev.description[2]",
+          "experiences.gepetoDev.description[3]",
+          "experiences.gepetoDev.description[4]",
+          "experiences.gepetoDev.description[5]",
+          "experiences.gepetoDev.description[6]"
+        ],
         "organisation": {
           "name": "organisation.viveris",
           "location": "location.paris"
@@ -69,7 +122,18 @@
       {
         "key": "sword",
         "title": "experiences.sword.title",
-        "description": "experiences.sword.description",
+        "description": [
+          "experiences.sword.description[0]",
+          "experiences.sword.description[1]",
+          "experiences.sword.description[2]",
+          "experiences.sword.description[3]",
+          "experiences.sword.description[4]",
+          "experiences.sword.description[5]",
+          "experiences.sword.description[6]",
+          "experiences.sword.description[7]",
+          "experiences.sword.description[8]",
+          "experiences.sword.description[9]"
+        ],
         "organisation": {
           "name": "organisation.sword",
           "location": "location.paris"
@@ -82,7 +146,10 @@
       {
         "key": "uqac",
         "title": "experiences.uqac.title",
-        "description": "experiences.uqac.description",
+        "description": [
+          "experiences.uqac.description[0]",
+          "experiences.uqac.description[1]"
+        ],
         "organisation": {
           "name": "organisation.uqac",
           "location": "location.quebec"
@@ -95,7 +162,10 @@
       {
         "key": "cran",
         "title": "experiences.cran.title",
-        "description": "experiences.cran.description",
+        "description": [
+          "experiences.cran.description[0]",
+          "experiences.cran.description[1]"
+        ],
         "organisation": {
           "name": "organisation.cran",
           "location": "location.nancy"
