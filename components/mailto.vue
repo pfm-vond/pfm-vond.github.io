@@ -1,5 +1,5 @@
 <template>
-  <smartext :value="value" :option="option"></smartext>
+  <smartext class="contact-mail" :value="value" :option="option"></smartext>
 </template>
 
 <script>
@@ -9,7 +9,8 @@
         return {
           value: {
             href: "mailto:" + this.email,
-            text: this.email
+            text: this.email,
+            translate: false
           } 
         } 
       },

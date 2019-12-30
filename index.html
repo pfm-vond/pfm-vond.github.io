@@ -22,12 +22,15 @@
         <script src="library/intl-helper/intl.js"></script>
         <script type="module" src="main.js"></script>
 
-        <link rel="stylesheet" type="text/css" href="hidelanguagechoice.css" media="print">
+        <!-- Styling -->
+        <link rel="stylesheet" type="text/css" href="themes/css/print.css" media="print">
+        <link rel="stylesheet" type="text/css" href="themes/css/light.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
  
     <body>
-        <div id="resume" style="margin-top: 1.5em;">
-            <div id="langChoice" class="row" style="position:absolute; top:0px; right:3%; z-index: 10000;">
+        <div id="resume">
+            <div id="printOptions" class="row printMenu">
                 <select v-model="$i18n.locale">
                     <option v-for="(lang, i) in option.availableLang" :key="`Lang${i}`" :value="lang">{{ lang }}</option>
                 </select>

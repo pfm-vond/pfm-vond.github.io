@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="career">
     <simplelist type="abstract"
       :option="option" 
       :items="value.abstracts"></simplelist>

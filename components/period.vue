@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="period">
         <span v-if="period.to == undefined">
             {{ $t("common.since", { date: $d(from, 'short') }) }}
         </span>

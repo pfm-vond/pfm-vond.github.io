@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="postal">
     <div>
         <div>{{ $t('common.address[0]', addressData($t(value.honorific))) }}</div>
         <div>{{ $t('common.address[1]', addressData($t(value.honorific))) }}</div>

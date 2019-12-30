@@ -1,0 +1,30 @@
+.printMenu {
+    display: none!important;
+}
+
+#resume {
+    margin-top: 0em!important;
+
+    li {
+        page-break-inside: avoid;
+    }
+
+    a {
+        display: inline-block;
+        overflow-wrap: break-word;
+        max-width: 100%;
+        text-decoration: none;
+
+        &:before{
+            content: attr(href) " - ";
+        }
+    }
+    
+    .contact-mail { 
+        a {
+            &:before{
+                content: initial;
+            }  
+        } 
+    }
+}

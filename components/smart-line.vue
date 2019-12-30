@@ -1,13 +1,23 @@
 <template>
   <div v-if="value !== undefined">
-    <a v-if="islink" :href="value.href">{{ $t(text) }}</a>
-    <span v-else>{{ $t(text) }}</span>
+    <a v-if="islink" :href="value.href">{{ displayText(text) }}</a>
+    <span v-else>{{ displayText(text) }}</span>
   </div>
 </template>
 
 <script>
     module.exports = {
       props: ['value', 'option'],
+      methods: {
+        displayText(key){
+          if(this.value.translate === false)
+          {
+            return key;
+          }
+          
+          return this.$i18n.t(key);
+        }
+      },
       data: function(){
         var _islink = this.value.href !== undefined;
         return {

@@ -1,6 +1,6 @@
 {
   "common": {
-    "period": "{from} - {to}",
+    "period": "{from} to {to}",
     "since": "since {date}",
     "orgaloc": "{organisation} ({location})",
     "licence": {

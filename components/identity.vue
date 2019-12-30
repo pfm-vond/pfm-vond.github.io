@@ -1,13 +1,13 @@
 <template>
-  <div>
-    <div >
+  <div class="identity">
+    <div class="name">
       {{ value.surname }} {{ value.name }}
     </div>    
-    <div >{{ $t(value.title) }}</div>
-    <div >{{ $t("identity.age", { age: age}) }}, {{ $t(licence) }}</div>
+    <div class="title">{{ $t(value.title) }}</div>
+    <div class="subtitle">{{ $t("identity.age", { age: age}) }}, {{ $t(licence) }}</div>
     <contact v-bind:value="value.contact"  v-bind:option="option"></contact>
-    <div v-bind:key="link.value" v-for="link in value.links">
-        <smartext :option="option" :value="link"></smartext>
+    <div class="links" v-bind:key="link.value" v-for="link in value.links">
+        <smartext class="link" :option="option" :value="link"></smartext>
     </div>
   </div>
 </template>

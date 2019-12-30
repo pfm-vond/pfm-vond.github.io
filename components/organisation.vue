@@ -1,5 +1,5 @@
 <template>
-    <span>{{ $t('common.orgaloc', { 
+    <span class="organisation" >{{ $t('common.orgaloc', { 
       organisation: $t(value.name), 
       location: $t(value.location)
      }) }}</span>
