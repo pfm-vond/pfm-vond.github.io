@@ -5,6 +5,9 @@
       {
         "key": "csn",
         "title": "experiences.csn.title",
+        "print":{
+          "pageBreakAfter": "always"
+        },
         "description": [
           "experiences.csn.description[0]",
           "experiences.csn.description[1]",

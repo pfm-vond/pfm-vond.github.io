@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div :class="CssClass()">
     <h3>
       <smartext :option="option" :value="card.title"></smartext>
     </h3>
@@ -12,6 +12,18 @@
 <script>
     module.exports = {
       props: ['type', 'card', 'option'],
+      methods: {
+        CssClass(){
+          var classes = [ 'resume-card' ];
+
+          if(this.card.print && this.card.print.pageBreakAfter === 'always')
+          {
+            classes.push('page-break-after')
+          }
+
+          return classes.join(" ");
+        }
+      },
       components: {
         'period': 'url:./period.vue',
         'smartext': 'url:./smart-paragraph.vue',
