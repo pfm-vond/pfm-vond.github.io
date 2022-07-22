@@ -1,10 +1,10 @@
 {
-  "organisation":{
+  "organisation": {
     "google": "Google",
     "uqac": "Université du Quebec A Chicoutimi",
-    "esial":"Telecom Nancy",
-    "uhp":"Université Henry Poincaré",
-    "georgesbaumont":"Lycée Georges Baumont",
+    "esial": "Telecom Nancy",
+    "uhp": "Université Henry Poincaré",
+    "georgesbaumont": "Lycée Georges Baumont",
     "csn": "CSN Energy",
     "talentsoft": "Talentsoft",
     "viveris": "Viveris",
@@ -13,6 +13,9 @@
     "numalliance": "Numalliance",
     "vega": "Vega Consultant",
     "groundarmy": "Armée de terre Française",
-    "unisem": "Groupe Unisem"
+    "unisem": "Groupe Unisem",
+    "humble": "HumbleRoof",
+    "paprec": "PAPREC GROUP",
+    "aston": "ASTON iTF"
   }
 }

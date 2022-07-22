@@ -1,6 +1,28 @@
 {
-  "experiences":{
+  "experiences": {
     "title": "Expériences",
+    "Humbleroof": {
+      "title": "Founder",
+      "description": [
+        "Avec un accompagnement de la CCI 92, Création d'un business plan, d'un pitch deck et de pitch devant des investisseurs.",
+        "Réalisation d'étude de marché, de prévisionnel financier et d'un site site web avec pipeline de déploiement associé"
+      ]
+    },
+    "paprec": {
+      "title": "Software Architect",
+      "description": [
+        "Architecte dans une structure avec deux CTOs, j'ai trouvé les visions de chacun des CTOs contradictoires ce qui a rendu mon intégration impossible.",
+        "Le CTO historique à préféré mettre fin à ma période d'essai, car ma vision était trop proche de celle du nouveau CTO qui lui avait été imposé par la direction."
+      ]
+    },
+    "aston": {
+      "title": "Software Architect",
+      "description": [
+        "Rôle de Tech Lead dans une équipe de 8 personnes, en charges de sujet technique et de l'organisation de l'équipe.",
+        "Le rôle n'était pas très pertinant, car un développeur avait déjà ce rôle de tech lead au sein de l'équipe.",
+        "Suite à une discussion avec le CTO, le poste a été supprimé."
+      ]
+    },
     "csn": {
       "title": "Architecte Solution Saas",
       "description": [
@@ -11,11 +33,11 @@
         "Création et maintien des processus CI/CD sur Azure, au début, un Devops s'en charge a présent.",
         "CSN Energy accompagne les fournisseurs de gaz et d’électricité dans la mise en place de leur activité en France.",
         "Nous développons une plateforme SaaS qui permet la prise en charge complète d’une activité de fourniture d’énergie.",
-        "Site web: www.csnenergy.com" 
+        "Site web: www.csnenergy.com"
       ]
     },
     "talentsoft": {
-      "title":"Ingénieur de développement R&D",
+      "title": "Ingénieur de développement R&D",
       "description": [
         "Développeur C#",
         "Au sein du département R&D et rattaché à un leader technique, l’ingénieur développement R&D est à l’origine de la conception et du développement des logiciels. il s'assure de la maintenabilité et de la lisibilité du code sur le long terme.",
@@ -25,12 +47,12 @@
         "La Knowledge Unit Craftmanship a pour objectif de propager les bonnes pratiques issue du manifeste Craftmanship à toute la R&D de Talentsoft.",
         "Talentsoft propose une solution 100% Cloud pour la gestion du recrutement, l’évaluation de la performance, la formation, le développement des compétences et des carrières, et la gestion des rémunérations. Notre application flexible et adaptable vous permet d’intégrer vos processus RH pour une gestion des talents optimisée.",
         "",
-        "Talentsoft est aujourd'hui leader sur son marché avec plus de 4 millions d'utilisateurs en 17 langues et dans plus de 100 pays." 
+        "Talentsoft est aujourd'hui leader sur son marché avec plus de 4 millions d'utilisateurs en 17 langues et dans plus de 100 pays."
       ]
     },
     "gepetoPm": {
-      "title":"Application GEPETO : Gestion de configuration en phase d’IVVQ - Chef de Projet / Lead developpeur.",
-      "description":[
+      "title": "Application GEPETO : Gestion de configuration en phase d’IVVQ - Chef de Projet / Lead developpeur.",
+      "description": [
         "La société THALES C&S développe et produit pour ses clients des équipements de communication. Le projet concerne la phase d’IVVQ, mise au point des produits avant leur industrialisation.",
         "Il couvre la gestion des configurations des modèles issus du PLM, mais avec une maille plus large, et la gestion en parallèle des configurations mises en œuvre dans les prototypes.",
         "Une configuration comprend non seulement l’identification des sous-ensembles composant un équipement, sur plusieurs niveaux d’arborescence, mais aussi la description de la documentation, des logiciels, et des moyens de test nécessaire.",
@@ -48,24 +70,24 @@
       ]
     },
     "kappa": {
-      "title":"Application KAPPA : Gestion de publications et de dissémination. - Ingénieur d'études",
-      "description":[
-          "L’OCDE produit et vends des études économique à destination des états, grandes entreprises et université. La fonction concerne le bon fonctionnement de la couche de dissémination. Cette couche a pour objectif d’approvisionner en document et métadonnées l’ensemble des plateformes de ventes partenaires de l’OCDE.",
-          "",
-          "Cette mission intervient donc dans un environnement à hauts risques avec un besoin de qualité élevée. Une erreur au niveau de la couche de dissémination impacterai immédiatement les ventes de publications.",
-          "Fonctions assumées : Support et Développement",
-          "- Maintenance de l’automate de dissémination",
-          "- Amélioration des processus de dissémination",
-          "- Développement de la version 3 du CMS interne à l’OECD",
-          "Environnement et outils : AGILE",
-          "- Microsoft SQL Server (SQL, T-SQL), MarkLogic (NoSQL)",
-          "- Jenkins",
-          "- XSLT, XML, C#, Ant"
+      "title": "Application KAPPA : Gestion de publications et de dissémination. - Ingénieur d'études",
+      "description": [
+        "L’OCDE produit et vends des études économique à destination des états, grandes entreprises et université. La fonction concerne le bon fonctionnement de la couche de dissémination. Cette couche a pour objectif d’approvisionner en document et métadonnées l’ensemble des plateformes de ventes partenaires de l’OCDE.",
+        "",
+        "Cette mission intervient donc dans un environnement à hauts risques avec un besoin de qualité élevée. Une erreur au niveau de la couche de dissémination impacterai immédiatement les ventes de publications.",
+        "Fonctions assumées : Support et Développement",
+        "- Maintenance de l’automate de dissémination",
+        "- Amélioration des processus de dissémination",
+        "- Développement de la version 3 du CMS interne à l’OECD",
+        "Environnement et outils : AGILE",
+        "- Microsoft SQL Server (SQL, T-SQL), MarkLogic (NoSQL)",
+        "- Jenkins",
+        "- XSLT, XML, C#, Ant"
       ]
     },
     "gepetoDev": {
-      "title":"Application GEPETO : Gestion de configuration en phase d’IVVQ - Ingénieur d'études",
-      "description":[
+      "title": "Application GEPETO : Gestion de configuration en phase d’IVVQ - Ingénieur d'études",
+      "description": [
         "Fonctions assumées : Développeur",
         "- Développement IHM, fonctions serveur, rapports",
         "- Installation et déploiement",
@@ -76,8 +98,8 @@
       ]
     },
     "sword": {
-      "title":"Consultant indexation.",
-      "description":[
+      "title": "Consultant indexation.",
+      "description": [
         "Google Search Appliance (GSA) est un moteur de recherche sécurisé et universel pour l’entreprise. Dans le cadre de son partenariat premium la société SWP propose des missions d’intégration et d’expertise à ses clients Français et internationaux.",
         "Fonctions assumées : Entreprise search consultant",
         "- Avant-Vente",
@@ -91,15 +113,15 @@
       ]
     },
     "uqac": {
-      "title":"Chercheur en meta-heuristique",
+      "title": "Chercheur en meta-heuristique",
       "description": [
         "Ce mémoire avait pour objectif de créer une meta-heuristique auto-paramètrisé et dynamique.",
         "Le résultat obtenu fut jugé compétitif avec l'état de l'art actuel de la recherche en meta-heuristique."
       ]
     },
     "cran": {
-      "title":"Développeur java et java-web.",
-      "description":[
+      "title": "Développeur java et java-web.",
+      "description": [
         "Ce stage avait pour objectif de développer une plateforme web. Cette plateforme peut présenter les résultats des recherches du CRAN dans le domaine de la prédiction de maintenance.",
         "Cette plateforme se décompose en deux parties. La première permet aux personnes du CRAN d’implémenter des algorithmes de prédiction, de les ajouter dynamiquement à une base de données et de les exécuter. La seconde permet la sélection, l’exécution et la présentation des résultats d’un algorithme sur un jeu de donnée pronostic MIMOSA du client."
       ]
@@ -109,20 +131,20 @@
       "description": "Ce stage avait pour objectif de nous faire découvrir le monde de l'entreprise. Celui-ci m'a permis de découvrir les méthodes de fabrication de machine outils de taille importante. J'y ai réalisé plusieurs tâches ouvrières telles que la soudure à l'arc, la réalisation de tableau électrique ..."
     },
     "ocaml": {
-      "title":"Tuteur Ocaml",
-      "description":"La mission était d'enseigner à des élèves de première année post-bac les bases de la programmation via le langage Ocaml."
+      "title": "Tuteur Ocaml",
+      "description": "La mission était d'enseigner à des élèves de première année post-bac les bases de la programmation via le langage Ocaml."
     },
     "vega": {
-      "title":"Création de site web",
-      "description":"La mission était de concevoir et de réaliser, à partir de page HTML Microsoft Word, le site web de l'entreprise VEGA CONSULTANT."
+      "title": "Création de site web",
+      "description": "La mission était de concevoir et de réaliser, à partir de page HTML Microsoft Word, le site web de l'entreprise VEGA CONSULTANT."
     },
     "army": {
-      "title":"Préparation militaire cadre",
-      "description":"Ce stage avait pour objectif de délivrer les bases comportementales, tactiques et techniques nécessaires à tout officier de l'armée."
+      "title": "Préparation militaire cadre",
+      "description": "Ce stage avait pour objectif de délivrer les bases comportementales, tactiques et techniques nécessaires à tout officier de l'armée."
     },
     "unisem": {
-      "title":"Opérateur sur chaîne",
-      "description":"La mission consistait à vérifier la bonne formation des puces électroniques à l'aide d'une machine à rayons X."
+      "title": "Opérateur sur chaîne",
+      "description": "La mission consistait à vérifier la bonne formation des puces électroniques à l'aide d'une machine à rayons X."
     }
   }
 }
