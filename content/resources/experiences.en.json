@@ -1,6 +1,30 @@
 {
   "experiences":{
     "title": "Experiences",
+    "Humbleroof": {
+      "title": "Founder",
+      "description": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "paprec": {
+      "title": "Software Architect",
+      "description": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "aston": {
+      "title": "Software Architect",
+      "description": [
+        "",
+        "",
+        ""
+      ]
+    },
     "csn": {
       "title":"Solution Architect Saas",
       "description": [ "Handle C# development, clean coding topics, and good practices in software engineering related topics at CSN Energy.",
