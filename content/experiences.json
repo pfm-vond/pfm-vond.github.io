@@ -31,7 +31,8 @@
           "location": "location.paris"
         },
         "period": {
-          "from": "2022-01-06"
+          "from": "2022-01-06",
+          "to": "2022-09-31"
         }
       },
       {
