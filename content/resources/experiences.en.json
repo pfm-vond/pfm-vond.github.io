@@ -1,54 +1,43 @@
 {
-  "experiences":{
+  "experiences": {
     "title": "Experiences",
+    "octo": {
+      "title": "Tech Lead - Coach Craft - Manager",
+      "description": [
+        "Tech Lead : since april 2023, help an agile teams in the creation of a product.",
+        "Coach craft : duration - 3 months, helping junior and experienced dev in craft practices (TDD, hexagonal architecture, clean Architecture ...)",
+        "Training as Trainer : DDD, Tech Lead, Pratique Craft, C# in depth.",
+        "Manager at octo, one of the leader of the craft tribe."
+      ]
+    },
     "humble": {
       "title": "Founder",
-      "description": [
-        "",
-        "",
-        ""
-      ]
+      "description": ["", "", ""]
     },
     "paprec": {
       "title": "Software Architect",
-      "description": [
-        "",
-        "",
-        ""
-      ]
+      "description": ["", "", ""]
     },
     "aston": {
       "title": "Software Architect",
-      "description": [
-        "",
-        "",
-        ""
-      ]
+      "description": ["", "", ""]
     },
     "csn": {
-      "title":"Solution Architect Saas",
-      "description": [ "Handle C# development, clean coding topics, and good practices in software engineering related topics at CSN Energy.",
-      "Work with CTOs on industrialisation of process.",
-      "Set up a new modular architecture, Microservices ready.",
-      "Set up an API, user journey oriented with odata add on, to rationnalize and enhance customer experience",
-      "Create and manage CI/CD processes on Azure for a time, now done by a devops.",
-      "CSN Energy is the MVNE (Mobile Virtual Network Enabler) of the energy sector.",
-      "We provide a digital energy management platform and related services that enable energy suppliers to fully outsource their IT activity and none energy professionals to become VES (Virtual Energy Supplier) like MVNOs (Mobile Virtual Network Operators) in the telecommunications industry.",
-      "website: www.csnenergy.com" ]
+      "title": "Solution Architect Saas",
+      "description": [
+        "Handle C# development, clean coding topics, and good practices in software engineering related topics at CSN Energy.",
+        "Work with CTOs on industrialisation of process.",
+        "Set up a new modular architecture, Microservices ready.",
+        "Set up an API, user journey oriented with odata add on, to rationnalize and enhance customer experience",
+        "Create and manage CI/CD processes on Azure for a time, now done by a devops.",
+        "CSN Energy is the MVNE (Mobile Virtual Network Enabler) of the energy sector.",
+        "We provide a digital energy management platform and related services that enable energy suppliers to fully outsource their IT activity and none energy professionals to become VES (Virtual Energy Supplier) like MVNOs (Mobile Virtual Network Operators) in the telecommunications industry.",
+        "website: www.csnenergy.com"
+      ]
     },
     "talentsoft": {
-      "title":"R&D Software engineer",
-      "description": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "" 
-      ],
+      "title": "R&D Software engineer",
+      "description": ["", "", "", "", "", "", "", "", ""],
       "frdescription": [
         "Développeur C#",
         "Au sein du département R&D et rattaché à un leader technique, l’ingénieur développement R&D est à l’origine de la conception et du développement des logiciels. il s'assure de la maintenabilité et de la lisibilité du code sur le long terme.",
@@ -58,28 +47,13 @@
         "La Knowledge Unit Craftmanship a pour objectif de propager les bonnes pratiques issue du manifeste Craftmanship à toute la R&D de Talentsoft.",
         "Talentsoft propose une solution 100% Cloud pour la gestion du recrutement, l’évaluation de la performance, la formation, le développement des compétences et des carrières, et la gestion des rémunérations. Notre application flexible et adaptable vous permet d’intégrer vos processus RH pour une gestion des talents optimisée.",
         "",
-        "Talentsoft est aujourd'hui leader sur son marché avec plus de 4 millions d'utilisateurs en 17 langues et dans plus de 100 pays." 
+        "Talentsoft est aujourd'hui leader sur son marché avec plus de 4 millions d'utilisateurs en 17 langues et dans plus de 100 pays."
       ]
     },
     "gepetoPm": {
-      "title":"GEPETO Saas : prototyping configuration manager in Verification and validation life cycle - Projet Manager / Lead developpeur.",
-      "description": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "frdescription":[
+      "title": "GEPETO Saas : prototyping configuration manager in Verification and validation life cycle - Projet Manager / Lead developpeur.",
+      "description": ["", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+      "frdescription": [
         "La société THALES C&S développe et produit pour ses clients des équipements de communication. Le projet concerne la phase d’IVVQ, mise au point des produits avant leur industrialisation.",
         "Il couvre la gestion des configurations des modèles issus du PLM, mais avec une maille plus large, et la gestion en parallèle des configurations mises en œuvre dans les prototypes.",
         "Une configuration comprend non seulement l’identification des sous-ensembles composant un équipement, sur plusieurs niveaux d’arborescence, mais aussi la description de la documentation, des logiciels, et des moyens de test nécessaire.",
@@ -97,46 +71,26 @@
       ]
     },
     "kappa": {
-      "title":"Application KAPPA : Gestion de publications et de dissémination. - Ingénieur d'études",
-      "description": [
+      "title": "Application KAPPA : Gestion de publications et de dissémination. - Ingénieur d'études",
+      "description": ["", "", "", "", "", "", "", "", "", "", ""],
+      "frdescription": [
+        "L’OCDE produit et vends des études économique à destination des états, grandes entreprises et université. La fonction concerne le bon fonctionnement de la couche de dissémination. Cette couche a pour objectif d’approvisionner en document et métadonnées l’ensemble des plateformes de ventes partenaires de l’OCDE.",
         "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "frdescription":[
-          "L’OCDE produit et vends des études économique à destination des états, grandes entreprises et université. La fonction concerne le bon fonctionnement de la couche de dissémination. Cette couche a pour objectif d’approvisionner en document et métadonnées l’ensemble des plateformes de ventes partenaires de l’OCDE.",
-          "",
-          "Cette mission intervient donc dans un environnement à hauts risques avec un besoin de qualité élevée. Une erreur au niveau de la couche de dissémination impacterai immédiatement les ventes de publications.",
-          "Fonctions assumées : Support et Développement",
-          "- Maintenance de l’automate de dissémination",
-          "- Amélioration des processus de dissémination",
-          "- Développement de la version 3 du CMS interne à l’OECD",
-          "Environnement et outils : AGILE",
-          "- Microsoft SQL Server (SQL, T-SQL), MarkLogic (NoSQL)",
-          "- Jenkins",
-          "- XSLT, XML, C#, Ant"
+        "Cette mission intervient donc dans un environnement à hauts risques avec un besoin de qualité élevée. Une erreur au niveau de la couche de dissémination impacterai immédiatement les ventes de publications.",
+        "Fonctions assumées : Support et Développement",
+        "- Maintenance de l’automate de dissémination",
+        "- Amélioration des processus de dissémination",
+        "- Développement de la version 3 du CMS interne à l’OECD",
+        "Environnement et outils : AGILE",
+        "- Microsoft SQL Server (SQL, T-SQL), MarkLogic (NoSQL)",
+        "- Jenkins",
+        "- XSLT, XML, C#, Ant"
       ]
     },
     "gepetoDev": {
-      "title":"GEPETO Saas : prototyping configuration manager in Verification and validation life cycle - Software developer.",
-      "description": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "frdescription":[
+      "title": "GEPETO Saas : prototyping configuration manager in Verification and validation life cycle - Software developer.",
+      "description": ["", "", "", "", "", "", ""],
+      "frdescription": [
         "Fonctions assumées : Développeur",
         "- Développement IHM, fonctions serveur, rapports",
         "- Installation et déploiement",
@@ -147,20 +101,9 @@
       ]
     },
     "sword": {
-      "title":"Enterprise Search Consultant.",
-      "description": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "frdescription":[
+      "title": "Enterprise Search Consultant.",
+      "description": ["", "", "", "", "", "", "", "", "", ""],
+      "frdescription": [
         "Google Search Appliance (GSA) est un moteur de recherche sécurisé et universel pour l’entreprise. Dans le cadre de son partenariat premium la société SWP propose des missions d’intégration et d’expertise à ses clients Français et internationaux.",
         "Fonctions assumées : Entreprise search consultant",
         "- Avant-Vente",
@@ -174,23 +117,17 @@
       ]
     },
     "uqac": {
-      "title":"Meta-heuristics Research",
-      "description": [
-        "",
-        ""
-      ],
+      "title": "Meta-heuristics Research",
+      "description": ["", ""],
       "frdescription": [
         "Ce mémoire avait pour objectif de créer une meta-heuristique auto-paramètrisé et dynamique.",
         "Le résultat obtenu fut jugé compétitif avec l'état de l'art actuel de la recherche en meta-heuristique."
       ]
     },
     "cran": {
-      "title":"Java Software developer",
-      "description": [
-        "",
-        ""
-      ],
-      "frdescription":[
+      "title": "Java Software developer",
+      "description": ["", ""],
+      "frdescription": [
         "Ce stage avait pour objectif de développer une plateforme web. Cette plateforme peut présenter les résultats des recherches du CRAN dans le domaine de la prédiction de maintenance.",
         "Cette plateforme se décompose en deux parties. La première permet aux personnes du CRAN d’implémenter des algorithmes de prédiction, de les ajouter dynamiquement à une base de données et de les exécuter. La seconde permet la sélection, l’exécution et la présentation des résultats d’un algorithme sur un jeu de donnée pronostic MIMOSA du client."
       ]
@@ -201,24 +138,24 @@
       "frdescription": "Ce stage avait pour objectif de nous faire découvrir le monde de l'entreprise. Celui-ci m'a permis de découvrir les méthodes de fabrication de machine outils de taille importante. J'y ai réalisé plusieurs tâches ouvrières telles que la soudure à l'arc, la réalisation de tableau électrique ..."
     },
     "ocaml": {
-      "title":"Ocaml professor",
+      "title": "Ocaml professor",
       "description": "",
-      "frdescription":"La mission était d'enseigner à des élèves de première année post-bac les bases de la programmation via le langage Ocaml."
+      "frdescription": "La mission était d'enseigner à des élèves de première année post-bac les bases de la programmation via le langage Ocaml."
     },
     "vega": {
-      "title":"Html/Css Software developer",
+      "title": "Html/Css Software developer",
       "description": "",
-      "frdescription":"La mission était de concevoir et de réaliser, à partir de page HTML Microsoft Word, le site web de l'entreprise VEGA CONSULTANT."
+      "frdescription": "La mission était de concevoir et de réaliser, à partir de page HTML Microsoft Word, le site web de l'entreprise VEGA CONSULTANT."
     },
     "army": {
-      "title":"Military Officer Training",
+      "title": "Military Officer Training",
       "description": "",
-      "frdescription":"Ce stage avait pour objectif de délivrer les bases comportementales, tactiques et techniques nécessaires à tout officier de l'armée."
+      "frdescription": "Ce stage avait pour objectif de délivrer les bases comportementales, tactiques et techniques nécessaires à tout officier de l'armée."
     },
     "unisem": {
-      "title":"Factory Worker",
+      "title": "Factory Worker",
       "description": "",
-      "frdescription":"La mission consistait à vérifier la bonne formation des puces électroniques à l'aide d'une machine à rayons X."
+      "frdescription": "La mission consistait à vérifier la bonne formation des puces électroniques à l'aide d'une machine à rayons X."
     }
   }
 }

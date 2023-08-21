@@ -3,6 +3,23 @@
     "title": "experiences.title",
     "values": [
       {
+        "key": "octo",
+        "title": "experiences.octo.title",
+        "description": [
+          "experiences.octo.description[0]",
+          "experiences.octo.description[1]",
+          "experiences.octo.description[2]",
+          "experiences.octo.description[3]"
+        ],
+        "organisation": {
+          "name": "organisation.octo",
+          "location": "location.paris"
+        },
+        "period": {
+          "from": "2022-10-01"
+        }
+      },
+      {
         "key": "humble",
         "title": "experiences.humble.title",
         "description": [

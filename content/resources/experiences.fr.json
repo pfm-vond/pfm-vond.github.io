@@ -1,6 +1,15 @@
 {
   "experiences": {
     "title": "Expériences",
+    "octo": {
+      "title": "Tech Lead - Coach Craft - Manager réfèrent",
+      "description": [
+        "Tech Lead : depuis Avril 2023, accompagnement d'une equipe de développement dans la conception d'un produit.",
+        "Coach craft : durant 3 mois accompagnement de développeurs sur les pratique craft (TDD, architecture hexagonal, clean Architecture, et autre ...)",
+        "Formateur : DDD, Tech Lead, Pratique Craft, C# in depth.",
+        "Role de management chez octo, membre des dirigeants de la tribu Craft."
+      ]
+    },
     "humble": {
       "title": "Founder",
       "description": [
