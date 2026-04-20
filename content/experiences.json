@@ -6,10 +6,10 @@
         "key": "Pigment",
         "title": "Ingénieur développement IA et Data.",
         "description": [
+          "Cette experience m'a permis de solidifier ma compréhension technique des technologies Data - AI en production.",
           "- Développement d'outils MCP pour Agent analyste.",
-          "- Amélioration de l'agent Analyste.",
-          "- Mise en plade de flux de donnee massif",
-          "- Gestion des agents en production"
+          "- Mise en place de flux de donnee massif.",
+          "- Gestion des agents de Pigment en production."
         ],
         "organisation": {
           "name": "Pigment",
@@ -23,10 +23,10 @@
         "key": "octo",
         "title": "experiences.octo.title",
         "description": [
-          "experiences.octo.description[0]",
-          "experiences.octo.description[1]",
-          "experiences.octo.description[2]",
-          "experiences.octo.description[3]"
+          "Création du nouvelles offre business \"Lean Software\" et formation des équipes a cette méthode",
+          "Animation de meeting de formations continue sur le thème de la qualité logiciel chaque semaine",
+          "Suivi managériale en one to one de personne en difficulté et de leur départ.",
+          "Formateurs DDD, Event Storming, TDD (10 formations dans l'année à des groupes de 10 personnes en moyenne)"
         ],
         "organisation": {
           "name": "organisation.octo",
@@ -126,8 +126,9 @@
       },
       {
         "key": "uqac",
-        "title": "experiences.uqac.title",
+        "title": "Chercheur en IA (meta-heuristique)",
         "description": [
+          "Titre : Réduction de la paramètrisation d’un algorithme de P-ACO pour la résolution d’un problème d’affectation quadratique.",
           "experiences.uqac.description[0]",
           "experiences.uqac.description[1]"
         ],
@@ -141,61 +142,6 @@
         }
       },
       {
-        "key": "cran",
-        "title": "experiences.cran.title",
-        "description": [
-          "experiences.cran.description[0]",
-          "experiences.cran.description[1]"
-        ],
-        "organisation": {
-          "name": "organisation.cran",
-          "location": "location.nancy"
-        },
-        "period": {
-          "from": "2010-06-01",
-          "to": "2010-08-31"
-        }
-      },
-      {
-        "key": "numalliance",
-        "title": "experiences.numalliance.title",
-        "description": "experiences.numalliance.description",
-        "organisation": {
-          "name": "organisation.numalliance",
-          "location": "location.stMichel"
-        },
-        "period": {
-          "from": "2009-07-01",
-          "to": "2009-08-31"
-        }
-      },
-      {
-        "key": "ocaml",
-        "title": "experiences.ocaml.title",
-        "description": "experiences.ocaml.description",
-        "organisation": {
-          "name": "organisation.uhp",
-          "location": "location.nancy"
-        },
-        "period": {
-          "from": "2008-08-01",
-          "to": "2009-01-31"
-        }
-      },
-      {
-        "key": "vega",
-        "title": "experiences.vega.title",
-        "description": "experiences.vega.description",
-        "organisation": {
-          "name": "organisation.vega",
-          "location": "location.stdie"
-        },
-        "period": {
-          "from": "2008-08-01",
-          "to": "2008-09-31"
-        }
-      },
-      {
         "key": "army",
         "title": "experiences.army.title",
         "description": "experiences.army.description",
@@ -206,19 +152,6 @@
         "period": {
           "from": "2007-07-01",
           "to": "2007-07-31"
-        }
-      },
-      {
-        "key": "unisem",
-        "title": "experiences.unisem.title",
-        "description": "experiences.unisem.description",
-        "organisation": {
-          "name": "organisation.unisem",
-          "location": "location.croespenmaen"
-        },
-        "period": {
-          "from": "2005-07-01",
-          "to": "2005-07-31"
         }
       }
     ]
