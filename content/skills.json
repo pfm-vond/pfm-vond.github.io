@@ -1,64 +1,14 @@
 {
     "skills": {
-      "title": "skills.title",
+      "title": "Langues",
       "values": [
-        {
-            "key": "software",
-            "title": "skills.software.title",
-            "values": [
-                {
-                    "key": "craftmandship",
-                    "title": "skills.software.craftmandship",
-                    "gradeOutofFive": 2
-                },
-                {
-                    "key": "csharp",
-                    "title": "skills.software.csharp",
-                    "gradeOutofFive": 4.5
-                },
-                {
-                    "key": "html",
-                    "title": "skills.software.html",
-                    "gradeOutofFive": 3
-                },
-                {
-                    "key": "sql",
-                    "title": "skills.software.sql",
-                    "gradeOutofFive": 3.5
-                },
-                {
-                    "key": "other",
-                    "title": "skills.software.other"
-                }
-            ]
-        },
-        {
-            "key": "methodology",
-            "title": "skills.methodology.title",
-            "values": [
-                {
-                    "key": "agile",
-                    "title": "skills.methodology.agile",
-                    "gradeOutofFive": 4
-                },
-                {
-                    "key": "kanban",
-                    "title": "skills.methodology.kanban",
-                    "gradeOutofFive": 3
-                }
-            ]
-        },
         {
             "key": "language",
             "title": "skills.language.title",
             "values": [
                 {
                     "key": "english",
-                    "title": [ 
-                        "skills.language.english[0]",
-                        "skills.language.english[1]",
-                        "skills.language.english[2]"
-                    ],
+                    "title": "Full professional proficiency - Work in english on a daily basis",
                     "gradeOutofFive": 4
                 },
                 {
