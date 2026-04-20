@@ -2,16 +2,16 @@
   "experiences": {
     "title": "Expériences",
     "octo": {
-      "title": "Tech Lead - Coach Craft - Manager réfèrent",
+      "title": "Head of Craft Tribe",
       "description": [
         "Tech Lead : depuis Avril 2023, accompagnement d'une equipe de développement dans la conception d'un produit.",
         "Coach craft : durant 3 mois accompagnement de développeurs sur les pratique craft (TDD, architecture hexagonal, clean Architecture, et autre ...)",
         "Formateur : DDD, Tech Lead, Pratique Craft, C# in depth.",
-        "Role de management chez octo, membre des dirigeants de la tribu Craft."
+        "Role de management chez octo, dirigeant de la tribu Craft (40 personnes)."
       ]
     },
     "humble": {
-      "title": "Founder",
+      "title": "Fondateur - CEO",
       "description": [
         "Avec un accompagnement de la CCI 92, Création d'un business plan, d'un pitch deck et de pitch devant des investisseurs.",
         "Réalisation d'étude de marché, de prévisionnel financier et d'un site site web avec pipeline de déploiement associé"
@@ -33,10 +33,10 @@
       ]
     },
     "csn": {
-      "title": "Architecte Solution Saas",
+      "title": "Head of Engineering",
       "description": [
+        "Travaille en relation avec le CTO sur le process industrialisation.",
         "Gere les sujets de développement C#, de clean coding, et les bonnes pratiques liée à l'ingénierie logiciel chez CSN Energy.",
-        "Travaille en relation avec les CTO sur le process industrialisation.",
         "Mise en place d'une architecture modulaire, Déployable en Microservices.",
         "Mise en place d'une architecture parcours utilisateur et Odata pour les API, afin de rationnaliser et d'améliorer l'expérience utilisateur.",
         "Création et maintien des processus CI/CD sur Azure, au début, un Devops s'en charge a présent.",
