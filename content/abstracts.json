@@ -2,19 +2,11 @@
     "abstracts": [
         {
             "key": "introduction",
-            "value": "abstract.introduction"
+            "value": "Professionnel expérimenté avec un parcours unique et complet, ayant occupé des fonctions allant de CEO à Head of Engineering, en passant par Product Manager et Architecte. Mon expertise réside dans ma capacité à lier la vision stratégique du marché (Product Management/CEO) à l'exécution technique robuste (Architecture/Engineering). J'ai démontré ma capacité à diriger des équipes complexes, ayant notamment supervisé une équipe d'ingénierie de 40 personnes. Orienté résultats et croissance, j'excelle dans la transformation de défis métier en solutions technologiques scalables, en assurant la cohésion entre les objectifs business et les capacités techniques."
         },
         {
             "key": "aboutme",
-            "value": "abstract.aboutme"
-        },
-        {
-            "key": "jobtitle",
-            "value": "abstract.jobtitle"
-        },
-        {
-            "key": "contactme",
-            "value": "abstract.contactme"
+            "value": "J'ai choisi de prendre une année de césure en tant que développeur AI au sein de pigment, ce qui m'a permis d'acquérir une forte connaissance pratique des usages possible de l'AI dans un logiciel en production avec une forte de base de clients en production."
         }
     ]
 }
