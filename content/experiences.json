@@ -1,19 +1,19 @@
 {
   "experiences": {
-    "title": "experiences.title",
+    "title": "Ingénieur développement IA et Data.",
     "values": [
       {
-        "key": "pigment",
-        "title": "experiences.pigment.title",
+        "key": "Pigment",
+        "title": "Ingénieur développement IA et Data.",
         "description": [
-          "experiences.pigment.description[0]",
-          "experiences.pigment.description[1]",
-          "experiences.pigment.description[2]",
-          "experiences.pigment.description[3]"
+          "- Développement d'outils MCP pour Agent analyste.",
+          "- Amélioration de l'agent Analyste.",
+          "- Mise en plade de flux de donnee massif",
+          "- Gestion des agents en production"
         ],
         "organisation": {
-          "name": "organisation.octo",
-          "location": "location.paris"
+          "name": "Pigment",
+          "location": "Paris"
         },
         "period": {
           "from": "2025-03-03"
