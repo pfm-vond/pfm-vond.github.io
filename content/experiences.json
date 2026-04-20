@@ -79,11 +79,11 @@
       },
       {
         "key": "talentsoft",
-        "title": "experiences.talentsoft.title",
+        "title": "Head of Quality Knowledge Unit - Ingénieur de développement R&D",
         "description": [
           "experiences.talentsoft.description[0]",
           "experiences.talentsoft.description[1]",
-          "experiences.talentsoft.description[2]",
+          "Head of Quality Knowledge Unit",
           "experiences.talentsoft.description[3]",
           "experiences.talentsoft.description[4]",
           "experiences.talentsoft.description[5]",
@@ -102,21 +102,15 @@
       },
       {
         "key": "dev",
-        "title": "experiences.dev.title",
+        "title": "Développeur C# / Java",
         "description": [
-          "experiences.dev.description[0]",
-          "experiences.dev.description[1]",
-          "experiences.dev.description[2]",
-          "experiences.dev.description[3]",
-          "experiences.dev.description[4]",
-          "experiences.dev.description[5]",
-          "experiences.dev.description[6]",
-          "experiences.dev.description[7]",
-          "experiences.dev.description[8]",
-          "experiences.dev.description[9]"
+          "Thales",
+          "OCDE",
+          "Sword",
+          "Google - GSA",
         ],
         "organisation": {
-          "name": "organisation.dev",
+          "name": "Développeur C# / Java",
           "location": "location.paris"
         },
         "period": {
