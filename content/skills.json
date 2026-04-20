@@ -1,7 +1,53 @@
 {
     "skills": {
-      "title": "Langues",
+      "title": "Compétences",
       "values": [
+        {
+            "key": "Core",
+            "title": "Core",
+            "values": [
+                {
+                    "key": "sc",
+                    "title": "Strategic Consulting",
+                    "gradeOutofFive": 4
+                },
+                {
+                    "key": "pm",
+                    "title": "Project Management",
+                    "gradeOutofFive": 4
+                },
+                {
+                    "key": "pd",
+                    "title": "Product Delivery",
+                    "gradeOutofFive": 4
+                },
+                {
+                    "key": "pi",
+                    "title": "Process Improvement",
+                    "gradeOutofFive": 4
+                },
+                {
+                    "key": "om",
+                    "title": "Operation Management",
+                    "gradeOutofFive": 4
+                },
+                {
+                    "key": "rm",
+                    "title": "Resource Management",
+                    "gradeOutofFive": 4
+                },
+                {
+                    "key": "d",
+                    "title": "Director",
+                    "gradeOutofFive": 4
+                },
+                {
+                    "key": "us",
+                    "title": "Upholding standards",
+                    "gradeOutofFive": 4
+                },
+            ]
+        },
         {
             "key": "language",
             "title": "skills.language.title",
