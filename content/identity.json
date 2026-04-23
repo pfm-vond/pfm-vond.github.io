@@ -13,11 +13,11 @@
                 "honorific": "common.mister",
                 "name": [ "Pierre", "VONDERSCHER" ],
                 "company-name": [],
-                "street": [ "95", "boulevard", "romain rolland"],
+                "street": [ "37", "rue", "Montesson"],
                 "cityarea": [],
-                "city": [ "montrouge" ],
+                "city": [ "Bezons" ],
                 "county": [],
-                "postalCode": [ "92120" ],
+                "postalCode": [ "95870" ],
                 "country": [ "France" ]
             }
         },
